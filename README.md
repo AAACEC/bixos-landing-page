@@ -8,6 +8,12 @@ e ao mundo da computação.
 Para contribuir com o projeto, basta dar sua opinião ou sugestão em uma de nossas
 reuniões, abrir uma [issue](https://github.com/AAACEC/bixos-landing-page/issues)
 ou submeter um [pull request](https://github.com/AAACEC/bixos-landing-page/pulls).
+Já existe uma lista de tarefas a serem feitas, que pode ser consultada abaixo:
+
+## Todo
+
+- Usar [Bower](http://bower.io/) ou [npm](https://www.npmjs.com/) para fazer o
+  gerenciamente de dependências.
 
 ## Manutenção
 
