@@ -1,115 +1,115 @@
 <!DOCTYPE html>
 <html ng-app="app">
-    <head lang="pt-br">
-        <meta charset="UTF-8">
-        <title>AAACEC - Bem-vindo BIXO!</title>
-        <style type="text/css">
-            section {
-                height: 100vh;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="controls"></div>
-        <section id="1">
-            <h1>Parabéns!</h1>
-            <p>Aqui ficará uma mensagem de boas vindas junto com o mini-rino!</p>
-        </section>
-        <section id="2">
-            <h1>O que saber/fazer/levar no dia da matrícula?</h1>
-            <p>Aqui terá uma lista com o que levar, infos úteis de como proceder e mapa</p>
-        </section>
-        <section id="3">
-            <h1>FAQ</h1>
-        </section>
-        <section id="4">
-            <h1>Entidades</h1>
-        </section>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        <script src="assets/js/jquery.inview.min.js"></script>
-        <script src="assets/js/move.min.js"></script>
-        <script>
-            $(function() {
-                var firstSection = 0;
-                var lastSection = 4;
-                var currentSection = 0;
-                var scrollingBeHappening = false;
+	<head lang="pt-br">
+		<meta charset="UTF-8">
+		<title>AAACEC - Bem-vindo BIXO!</title>
+		<style type="text/css">
+			section {
+				height: 100vh;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="controls"></div>
+		<section id="1">
+			<h1>Parabéns!</h1>
+			<p>Aqui ficará uma mensagem de boas vindas junto com o mini-rino!</p>
+		</section>
+		<section id="2">
+			<h1>O que saber/fazer/levar no dia da matrícula?</h1>
+			<p>Aqui terá uma lista com o que levar, infos úteis de como proceder e mapa</p>
+		</section>
+		<section id="3">
+			<h1>FAQ</h1>
+		</section>
+		<section id="4">
+			<h1>Entidades</h1>
+		</section>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="assets/js/jquery.inview.min.js"></script>
+		<script src="assets/js/move.min.js"></script>
+		<script>
+			$(function() {
+				var firstSection = 0;
+				var lastSection = 4;
+				var currentSection = 0;
+				var scrollingBeHappening = false;
 
-                $('body').bind('keydown', function(e) {
-                    if ((e.keyCode == '38') || (e.keyCode == '40')) {
-                        e.preventDefault();
-                    }
-                });
+				$('body').bind('keydown', function(e) {
+					if ((e.keyCode == '38') || (e.keyCode == '40')) {
+						e.preventDefault();
+					}
+				});
 
-                $('body').bind('wheel DOMMouseScroll mousewheel keyup', function(e) {
-                    if (scrollingBeHappening === false) {
-                        if (e.type == 'mousewheel') { // CHROME
-                            if (e.originalEvent.wheelDelta >= 0) {
-                                currentSection = (currentSection - 1)>=firstSection ? currentSection - 1: currentSection;
-                                scrollDirection = 'down';
-                            }
-                            else {
-                                currentSection = (currentSection + 1)<=lastSection ? currentSection + 1: currentSection;
-                                scrollDirection = 'up';
-                            }
-                            scrollingBeHappening = true;
-                        }
-                        else if (e.type == 'DOMMouseScroll') { // OLD FIREFOX
-                            if (e.originalEvent.detail >= 0) {
-                                currentSection = (currentSection - 1)>=firstSection ? currentSection - 1: currentSection;
-                                scrollDirection = 'down';
-                            }
-                            else {
-                                currentSection = (currentSection + 1)<=lastSection ? currentSection + 1: currentSection;
-                                scrollDirection = 'up';
-                            }
-                            scrollingBeHappening = true;
-                        }
-                        else if (e.type == 'wheel') { // NEW FIREFOX
-                            if (e.originalEvent.deltaY <= 0) {
-                                currentSection = (currentSection - 1)>=firstSection ? currentSection - 1: currentSection;
-                                scrollDirection = 'up';
-                            }
-                            else {
-                                currentSection = (currentSection + 1)<=lastSection ? currentSection + 1: currentSection;
-                                scrollDirection = 'down';
-                            }
-                            scrollingBeHappening = true;
-                        }
-                        else if (e.type == 'keyup') { // KEY PRESS
-                            if (e.keyCode == '38') {
-                                currentSection = (currentSection - 1)>=firstSection ? currentSection - 1: currentSection;
-                                scrollDirection = 'up';
-                            }
-                            else if (e.keyCode == '40') {
-                                currentSection = (currentSection + 1)<=lastSection ? currentSection + 1: currentSection;
-                                scrollDirection = 'down';
-                            }
-                            //scrollingBeHappening = true;
-                        }
+				$('body').bind('wheel DOMMouseScroll mousewheel keyup', function(e) {
+					if (scrollingBeHappening === false) {
+						if (e.type == 'mousewheel') { // CHROME
+							if (e.originalEvent.wheelDelta >= 0) {
+								currentSection = (currentSection - 1)>=firstSection ? currentSection - 1: currentSection;
+								scrollDirection = 'down';
+							}
+							else {
+								currentSection = (currentSection + 1)<=lastSection ? currentSection + 1: currentSection;
+								scrollDirection = 'up';
+							}
+							scrollingBeHappening = true;
+						}
+						else if (e.type == 'DOMMouseScroll') { // OLD FIREFOX
+							if (e.originalEvent.detail >= 0) {
+								currentSection = (currentSection - 1)>=firstSection ? currentSection - 1: currentSection;
+								scrollDirection = 'down';
+							}
+							else {
+								currentSection = (currentSection + 1)<=lastSection ? currentSection + 1: currentSection;
+								scrollDirection = 'up';
+							}
+							scrollingBeHappening = true;
+						}
+						else if (e.type == 'wheel') { // NEW FIREFOX
+							if (e.originalEvent.deltaY <= 0) {
+								currentSection = (currentSection - 1)>=firstSection ? currentSection - 1: currentSection;
+								scrollDirection = 'up';
+							}
+							else {
+								currentSection = (currentSection + 1)<=lastSection ? currentSection + 1: currentSection;
+								scrollDirection = 'down';
+							}
+							scrollingBeHappening = true;
+						}
+						else if (e.type == 'keyup') { // KEY PRESS
+							if (e.keyCode == '38') {
+								currentSection = (currentSection - 1)>=firstSection ? currentSection - 1: currentSection;
+								scrollDirection = 'up';
+							}
+							else if (e.keyCode == '40') {
+								currentSection = (currentSection + 1)<=lastSection ? currentSection + 1: currentSection;
+								scrollDirection = 'down';
+							}
+							//scrollingBeHappening = true;
+						}
 
-                        $('html, body').animate({
-                            scrollTop: $("#" + currentSection).offset().top
-                        }, 1000, function(){
-                            setTimeout (function() {
-                                scrollingBeHappening = false;
-                            }, 500)
-                        });
+						$('html, body').animate({
+							scrollTop: $("#" + currentSection).offset().top
+						}, 1000, function(){
+							setTimeout (function() {
+								scrollingBeHappening = false;
+							}, 500)
+						});
 
-                        return false;
-                    } else if (e.type == 'keyup' && e.keyCode == 27) {
+						return false;
+					} else if (e.type == 'keyup' && e.keyCode == 27) {
 
-                    } else {
-                        return false;
-                    };
-                });
+					} else {
+						return false;
+					};
+				});
 
-                function animatedScrollTo (id) {
-                    $('html, body').animate({
-                        scrollTop: $(id).offset().top
-                    }, 1000);
-                };
-            });
-        </script>
-    </body>
+				function animatedScrollTo (id) {
+					$('html, body').animate({
+						scrollTop: $(id).offset().top
+					}, 1000);
+				};
+			});
+		</script>
+	</body>
 </html>
