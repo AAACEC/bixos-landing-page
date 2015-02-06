@@ -80,7 +80,9 @@
 
 				/* Add extra steps at beginning and end. */
 				if (origin.extraSteps) {
-					routeCoords = origin.extraSteps.concat(routeCoords);
+					extraCopy = _.copy(origin.extraSteps);
+					extraCopy.reverse();
+					routeCoords = extraCopy.extraSteps.concat(routeCoords);
 				}
 
 				if (dest.extraSteps) {
