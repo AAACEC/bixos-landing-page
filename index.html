@@ -1,115 +1,846 @@
 <!DOCTYPE html>
-<html ng-app="app">
-	<head lang="pt-br">
-		<meta charset="UTF-8">
-		<title>AAACEC - Bem-vindo BIXO!</title>
-		<style type="text/css">
-			section {
-				height: 100vh;
-			}
-		</style>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8" >
+  		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" >
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,200,300|Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/css/animate.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<title>Seja bem-vindo Bixo Computação UNICAMP 2015!</title>
 	</head>
 	<body>
-		<div class="controls"></div>
-		<section id="1">
-			<h1>Parabéns!</h1>
-			<p>Aqui ficará uma mensagem de boas vindas junto com o mini-rino!</p>
+	<div id="skrollr-body" class="wrapper">
+		<section id="boas-vindas" class="content">
+			<div id="unicamp"></div>
+			<h1>Seja bem-vindo ao melhor curso de computação da América Latina!</h1>
+			<h4>Parabéns Bixo / Bixete! Agora você faz parte do seleto grupo de pessoas que podem desfrutar da incrível infra-estrutura de nossa universidade e ainda conviver com futuros grandes nomes da TI.</h4>
 		</section>
-		<section id="2">
-			<h1>O que saber/fazer/levar no dia da matrícula?</h1>
-			<p>Aqui terá uma lista com o que levar, infos úteis de como proceder e mapa</p>
+		<section id="o-curso" class="content" >
+			<h1>Conheça os cursos de computação da UNICAMP</h1>
+			<h4>Conheça algumas informações sobre seu curso e um de seus institutos, Instituto de Computação e a Faculdade de Engenharia Elétrica e de Computação:</h4>
+			<div class="stats">
+				<div class="stat" data-anchor-target="#o-curso" data-0="" data-200-top="" data--200-bottom="" data-emit-events>
+					<h5>Graduação</h5>
+					<div class="stat_number">
+						<span class="number" data-number="5">0</span> 
+					</div>
+					<div class="stat_detail">
+						<p><i class="fa fa-star"></i> Estrelas</p>
+						<i>Nota máxima pelo Guia do Estudante 2014</i>
+					</div>
+				</div>
+				<div class="stat">
+					<h5>Pós-graduação</h5>
+					<div class="stat_number">
+						<span class="number" data-number="7">0</span> 
+					</div>
+					<div class="stat_detail">
+						<p><i class="fa fa-trophy"></i> Pontos</p>
+						<i>Nota máxima pelo CAPES, de 2010 a 2014</i>
+					</div>
+				</div>
+				<div class="stat">
+					<h5>IC</h5>
+					<div class="stat_number">
+						<span class="number" data-number="40">0</span> 
+					</div>
+					<div class="stat_detail">
+						<p><i class="fa fa-graduation-cap"></i> Doutores</p>
+						<i>Todos com dedicação exclusiva no IC</i>
+					</div>
+				</div>
+				<div class="stat">
+					<h5>FEEC</h5>
+					<div class="stat_number">
+						<span class="number" data-number="45">0</span> 
+					</div>
+					<div class="stat_detail">
+						<p><i class="fa fa-clock-o"></i> Anos</p>
+						<i>25 anos de parceria junto ao IC</i>
+					</div>
+				</div>
+			</div>
 		</section>
-		<section id="3">
-			<h1>FAQ</h1>
+		<section id="calendario" class="content">
+			<h1>Informações pré-matrícula</h1>
+			<h4>A matrícula dos candidatos convocados para os cursos de graduação da Unicamp cabe à Diretoria Acadêmica, <a href="http://www.dac.unicamp.br">DAC</a>. Memorize o calendário de matrícula, pois todas são de extrema importância!</h4>
+			<h3>Calendário de Matrícula</h3>
+			<ul class="timeline">
+				<li class="li-1 clearfix" data-anchor-target="#calendario" data-45p-top="transform[outCubic]: translateY(100px); opacity: 0;" data-top="transform[outCubic]: translateY(0px); opacity: 1;">
+					<div class="timeline_date">03/02</div>
+					<ul class="timeline_events">
+						<li>
+							<div class="timeline_title">
+								<div class="resize">Início da Matrícula Online</div>
+								<div class="badge">Acadêmico</div>
+							</div>
+							<div class="timeline_desc">Das 9:00 até às 23:59 do dia 04/02</div>
+						</li>
+					</ul>
+				</li>
+				<li class="li-2 clearfix" data-anchor-target="#calendario .timeline .li-1" data-90p-top="transform[outCubic]: translateY(100px); opacity: 0;" data--350-bottom="transform[outCubic]: translateY(0px); opacity: 1;">
+					<div class="timeline_date">04/02</div>
+					<ul class="timeline_events">
+						<li>
+							<div class="timeline_title">
+								<div class="resize">Fim da Matrícula Online</div> 
+								<div class="badge">Acadêmico</div>
+							</div>
+							<div class="timeline_desc">Atenção: A vaga só estará garantida <span class="yellow">após a matrícula presencial!</span></div>
+						</li>
+					</ul>
+				</li>
+				<li class="li-3 clearfix" data-anchor-target="#calendario .timeline .li-2" data-90p-top="transform[outCubic]: translateY(100px); opacity: 0;" data--350-bottom="transform[outCubic]: translateY(0px); opacity: 1;">
+					<div class="timeline_date">06/02</div>
+					<ul class="timeline_events">
+						<li>
+							<div class="timeline_title">
+								<div class="resize">2ª Chamada dos Aprovados</div> 
+								<div class="badge">Acadêmico</div>
+							</div>
+							<div class="timeline_desc">Às 12:00</div>
+						</li>
+					</ul>
+				</li>
+				<li class="li-4 clearfix" data-anchor-target="#calendario .timeline .li-3" data-90p-top="transform[outCubic]: translateY(100px); opacity: 0;" data--350-bottom="transform[outCubic]: translateY(0px); opacity: 1;">
+					<div class="timeline_date">11/02</div>
+					<ul class="timeline_events">
+						<li>
+							<div class="timeline_title">
+								<div>Matrícula Presencial</div> 
+								<div class="badge">Acadêmico</div>
+							</div>
+							<div class="timeline_desc">Das 9:00 às 12:00. Para ingressantes da 1ª e 2ª chamadas</div>
+						</li>
+						<li>
+							<div class="timeline_title">
+								<div class="resize">3ª Chamada dos Aprovados</div> 
+								<div class="badge">Acadêmico</div>
+							</div>
+							<div class="timeline_desc">Até às 23:59</div>
+						</li>
+					</ul>
+				</li>
+				<li class="li-5 clearfix" data-anchor-target="#calendario .timeline .li-4" data-90p-top="transform[outCubic]: translateY(100px); opacity: 0;" data--350-bottom="transform[outCubic]: translateY(0px); opacity: 1;">
+					<div class="timeline_date">20/02</div>
+					<ul class="timeline_events">
+						<li>
+							<div class="timeline_title">
+								<div class="resize">Matrícula Presencial 3ª Chamada</div> 
+								<div class="badge">Acadêmico</div>
+							</div>
+							<div class="timeline_desc">Das 9:00 às 12:00</div>
+						</li>
+					</ul>
+				</li>
+				<li class="li-6 clearfix" data-anchor-target="#calendario .timeline .li-5" data-90p-top="transform[outCubic]: translateY(100px); opacity: 0;" data--350-bottom="transform[outCubic]: translateY(0px); opacity: 1;">
+					<div class="timeline_date">24/02</div>
+					<ul class="timeline_events">
+						<li>
+							<div class="timeline_title clearfix">
+								<div class="resize">Confirmação de Matrícula</div> 
+								<div class="badge">Acadêmico</div>
+							</div>
+							<div class="timeline_desc">Das 9:00 às 16:00. A matrícula só estará garantida após sua confirmação, caso contrário, será automática e <span class="yellow">definitivamente cancelada!</span></div>
+						</li>
+						<li>
+							<div class="timeline_title clearfix">
+								<div>Churras à Trois</div>
+								<div class="badge party">Social</div>
+							</div>
+							<div class="timeline_desc">A primeira festa da Computação! (FONO + ENF + COMP)</div>
+						</li>
+					</ul>
+				</li>
+				<li class="li-7 clearfix" data-anchor-target="#calendario .timeline .li-6" data-90p-top="transform[outCubic]: translateY(100px); opacity: 0;" data--350-bottom="transform[outCubic]: translateY(0px); opacity: 1;">
+					<div class="timeline_date">25/02</div>
+					<ul class="timeline_events">
+						<li>
+							<div class="timeline_title">
+								<div>Início das aulas</div> 
+								<div class="badge">Acadêmico</div>
+							</div>
+							<div class="timeline_desc">O tão esperado dia!</div>
+						</li>
+					</ul>
+				</li>
+			</ul>
 		</section>
-		<section id="4">
-			<h1>Entidades</h1>
+		<section id="matricula" class="content">
+			<h1>A matrícula: Seu primeiro contato com a UNICAMP</h1>
+			<h4>Certifique-se de ter em mãos todos os documentos necessários com antecedência, chegar na hora e local corretos, 
+				além de levar um dinheiro extra para comprar o Kit Bixo!</h4>
+			<div class="panel">
+				<div class="info">
+					<h3>Informações</h3>
+					<ol class="list infoList">
+						<li class="li-1" data-anchor-target=".info" data-90p-top="transform[outCubic]: translateX(-100px); opacity: 0;" data-300-top="transform[outCubic]: translateX(0px); opacity: 1;">A matrícula só estará <b>garantida após sua confirmação</b> na data e horário estipulados, caso contrário, será automática e definitivamente cancelada!</li>
+						<li class="li-2" data-anchor-target=".info ol .li-1" data-90p-top="transform[outCubic]: translateX(-100px); opacity: 0;" data--300-bottom="transform[outCubic]: translateX(0px); opacity: 1;">O candidato que tenha concluído estudos equivalentes ao ensino médio no exterior deve apresentar parecer de equivalência de estudos da Secretaria da Educação.</li>
+						<li class="li-3" data-anchor-target=".info ol .li-2" data-90p-top="transform[outCubic]: translateX(-100px); opacity: 0;" data--300-bottom="transform[outCubic]: translateX(0px); opacity: 1;">Os documentos em língua estrangeira deverão estar visados pela autoridade consular brasileira no país de origem e acompanhados da respectiva tradução oficial.</li>
+						<li class="li-4" data-anchor-target=".info ol .li-3" data-90p-top="transform[outCubic]: translateX(-100px); opacity: 0;" data--300-bottom="transform[outCubic]: translateX(0px); opacity: 1;">O menor de 18 anos deve apresentar os documentos <b>Título de Eleitor</b> e <b>Certificado de Reservista</b> tão logo esteja de posse dos mesmos.</li>
+						<li class="li-5" data-anchor-target=".info ol .li-4" data-90p-top="transform[outCubic]: translateX(-100px); opacity: 0;" data--300-bottom="transform[outCubic]: translateX(0px); opacity: 1;">A matrícula poderá ser feita por procuração, nos seguintes termos: por instrumento particular, se o candidato for maior de 18 anos; por instrumento público e com assistência de um dos pais ou responsável legal, se o candidato for menor de 18 anos.</li>
+						<li class="li-6" data-anchor-target=".info ol .li-5" data-90p-top="transform[outCubic]: translateX(-100px); opacity: 0;" data--300-bottom="transform[outCubic]: translateX(0px); opacity: 1;">O candidato que tenha concluído estudos equivalentes ao ensino médio no exterior deve apresentar parecer de equivalência de estudos da Secretaria da Educação.</li>
+						<li class="li-7" data-anchor-target=".info ol .li-6" data-90p-top="transform[outCubic]: translateX(-100px); opacity: 0;" data--300-bottom="transform[outCubic]: translateX(0px); opacity: 1;">Para mais informações, acesse o site da <a href="http://www.comvest.unicamp.br/vest2015/manual/instrucoes.html">COMVEST</a></li>
+					</ol>
+				</div>
+				<div class="docs">
+					<h3><i class="fa fa-file-text-o"></i> Documentos necessários</h3>
+					<ul class="list docsList fa-ul">
+						<li class="li-1" data-anchor-target=".docs" data-90p-top="transform[outCubic]: translateX(100px); opacity: 0;" data-300-top="transform[outCubic]: translateX(0px); opacity: 1;"><i class="fa-li fa fa-check-square-o"></i><b>Diploma ou Certificado de Conclusão do ensino médio</b>, e Histórico Escolar completo do ensino médio (somente para optante do PAAIS);</li>
+						<li class="li-2" data-anchor-target=".docs ul .li-1" data-90p-top="transform[outCubic]: translateX(100px); opacity: 0;" data--300-bottom="transform[outCubic]: translateX(0px); opacity: 1;"><i class="fa-li fa fa-check-square-o"></i><b>Certidão de Nascimento ou Casamento;</b></li>
+						<li class="li-3" data-anchor-target=".docs ul .li-2" data-90p-top="transform[outCubic]: translateX(100px); opacity: 0;" data--300-bottom="transform[outCubic]: translateX(0px); opacity: 1;"><i class="fa-li fa fa-check-square-o"></i><b>Cédula de Identidade Nacional</b> para brasileiros, <b>Registro Nacional de Estrangeiro</b> para estrangeiros residentes no Brasil e <b>Passaporte</b> para estrangeiros não-residentes no Brasil;</li>
+						<li class="li-4" data-anchor-target=".docs ul .li-3" data-90p-top="transform[outCubic]: translateX(100px); opacity: 0;" data--300-bottom="transform[outCubic]: translateX(0px); opacity: 1;"><i class="fa-li fa fa-check-square-o"></i><b>Cadastro de Pessoa Física – CPF</b>, para os brasileiros ou estrangeiros com <b>Registro Nacional de Estrangeiro</b>. <b>Não será aceito CPF de responsável</b>;</li>
+						<li class="li-5" data-anchor-target=".docs ul .li-4" data-90p-top="transform[outCubic]: translateX(100px); opacity: 0;" data--300-bottom="transform[outCubic]: translateX(0px); opacity: 1;"><i class="fa-li fa fa-check-square-o"></i><b>Título de Eleitor</b> para os brasileiros maiores de 18 anos;</li>
+						<li class="li-6" data-anchor-target=".docs ul .li-5" data-90p-top="transform[outCubic]: translateX(100px); opacity: 0;" data--300-bottom="transform[outCubic]: translateX(0px); opacity: 1;"><i class="fa-li fa fa-check-square-o"></i><b>Certificado de Reservista</b> ou Atestado de Alistamento Militar ou Atestado de Matrícula em CPOR ou NPOR, para os brasileiros maiores de 18 anos, do sexo masculino;</li>
+						<li class="li-7" data-anchor-target=".docs ul .li-6" data-90p-top="transform[outCubic]: translateX(100px); opacity: 0;" data--300-bottom="transform[outCubic]: translateX(0px); opacity: 1;"><i class="fa-li fa fa-check-square-o"></i>Uma <b>foto 3x4</b> recente para a Unicamp e duas fotos 3x4 recentes para a Famerp.</li>
+					</ul>
+				</div>
+			</div>
+			<div class="kit">
+				<h3>Kit Bixo</h3>
+				<p>Quer chegar abalando no curso? Então separe um dinheiro extra para adquirir o seu Kit Bixo!</p>
+				<p>Você vai levar para casa uma <b style="font-size: 1em;">infinidade de produtos</b> como: Camiseta Exclusiva, Caneca 700mL, Tirante, Mochila, Bloquinho de Post-it, Squeeze, Estojo completo (estojo, caneta, lápis e régia), Chaveiro, Vale-temaki e ingresso pra primeira festa da Computação: o Churras à Trois!</p>
+			</div>
 		</section>
+		<section id="mapa" class="content">
+			<h1>Informe-se antes de chegar na UNICAMP</h1>
+			<h4>O campus pode ser amedrontador à primeira vista, por isso anote as informações dos departamentos mais importantes, salve uma foto do mapa e verifique as rotas que irá usar!</h4>
+			
+			<h3>Restaurantes Universitários</h3>
+			<p>Nos Restaurantes Universitários, comumente chamados de "Bandejão", o preço da refeição é de <b style="font-size: 1em;">R$ 2,00 para estudantes</b>. Você deve carregar sua <b style="font-size: 1em;">carteira estudantil</b> nos postos de recarga localizados do lado externo dos restaurantes para utilizá-los.</p>
+			<p>Os restaurantes mais utilizados são: Restaurante Universitário (RU), Refeitório da Administração (RA) e Restaurante da Saturnino (RS). Vale lembrar que há um cardápio vegetariano, no entanto o mesmo só é servido no RS.
+			<a href="http://www.prefeitura.unicamp.br/servicos/divisao-de-alimentacao/cardapio-dos-restaurantes" target="_blank">Cardápio dos Restaurantes</a></p>
+
+			<h3>Circulares</h3>
+			<p>A UNICAMP possui 3 linhas de circulares que são gratuitos e facilitam a vida de quem necessita se deslocar pelo campus.</p>
+			<div class="trans">
+				<div class="bus">Circular I</div>
+				<div class="bus"><a href="http://www.prefeitura.unicamp.br/documentos/mapa_circular_1.pdf" target="_blank">Rotas</a></div>
+				<div class="bus"><a href="http://www.prefeitura.unicamp.br/documentos/HORARIO%20CIRCULAR%20I" target="_blank">Horários</a></div>
+			</div>
+			<div class="trans">
+				<div class="bus">Circular II</div>
+				<div class="bus"><a href="http://www.prefeitura.unicamp.br/documentos/mapa_circular_2.pdf" target="_blank">Rotas</a></div>
+				<div class="bus"><a href="http://www.prefeitura.unicamp.br/documentos/HORARIO%20CIRCULAR%20II" target="_blank">Horários</a></div>
+			</div>
+			<div class="trans">
+				<div class="bus">Circular Noturno</div>
+				<div class="bus"><a href="http://www.prefeitura.unicamp.br/documentos/mapa_circular_noturno.pdf" target="_blank">Rotas</a></div>
+				<div class="bus"><a href="http://www.prefeitura.unicamp.br/documentos/HORARIO%20CIRCULAR%20NOTURNO" target="_blank">Horários</a></div>
+			</div>
+			<p></p>
+			<h3>Rotas a pé</h3>
+			<div class="route_controls">
+				<div>De: </div>
+				<div class="select_control">
+					<select id="route-origin">
+						<option value="-22.822157,-47.069908" selected>Avenida 1</option>
+						<option value="-22.818498,-47.072880">Avenida 2</option>
+						<option value="-22.817617,-47.068376">CB</option>
+						<option value="-22.817699,-47.071109">PB</option>
+						<option value="-22.820818,-47.066615">FEEC</option>
+						<option value="-22.814696,-47.064176">IC 2</option>
+						<option value="-22.813544,-47.063478">IC 3</option>
+						<option value="-22.815311,-47.062655">Bandejão (RS)</option>
+						<option value="-22.817403,-47.071238">Bandejão (RU)</option>
+					</select>
+				</div>
+				<div>Para: </div>
+				<div class="select_control">
+					<select id="route-dest">
+						<option value="-22.822157,-47.069908">Avenida 1</option>
+						<option value="-22.818498,-47.072880">Avenida 2</option>
+						<option value="-22.817617,-47.068376" selected>CB</option>
+						<option value="-22.817699,-47.071109">PB</option>
+						<option value="-22.820818,-47.066615">FEEC</option>
+						<option value="-22.814696,-47.064176">IC 2</option>
+						<option value="-22.813544,-47.063478">IC 3</option>
+						<option value="-22.817403,-47.071238">Bandejão (RU)</option>
+						<option value="-22.815311,-47.062655">Bandejão (RS)</option>
+					</select>
+				</div>
+			</div>
+			<div id="map-canvas"></div>
+			<div class="locals">
+				<ul class="list">
+					<li><b>Avenida 1:</b> Avenida Doutor Romeu Tórtima</li>
+					<li><b>Avenida 2:</b> Avenida Professor Atílio Martini</li>
+					<li><b>CB:</b> Ciclo Básico I<br><span class="small">Fica na praça central, mais afastado das entradas.</span></li>
+					<li><b>PB:</b> Ciclo Básico II<br><span class="small">Fica mais próximo do Bandejão. Dá para vê-lo da entrada da Avenida 2.</span></li>
+					<li><b>FEEC:</b> Faculdade de Engenharia Elétrica e de Computação<br><span class="small">Fica mais próximo da entrada da Avenida 1</span></li>
+				</ul>
+				<ul class="list">
+					<li><b>IC 2:</b> Bloco do Instituto de Computação<br><span class="small">Bloco onde fica a secretaria do IC.</span></li>
+					<li><b>IC 3:</b> Bloco do Instituto de Computação<br><span class="small">Bloco situado acima do IC 2.</span></li>
+					<li><b>Bandejão RU:</b> Restaurante Universitário<br><span class="small">Fica mais próximo da entrada da Avenida 2.</span></li>
+					<li><b>Bandejão RS:</b> Restaurante Universitário<br><span class="small">Fica mais próximo do IC 3.</span></li>
+					<li><b>Bandejão RA:</b> Restaurante Universitário<br><span class="small">Fica mais próximo da FEEC.</span></li>
+				</ul>
+			</div>
+			
+		</section>
+		<section id="extra" class="content">
+			<h1>Atividades extracurriculares: O que fazer na UNICAMP, além de estudar?</h1>
+			<h4>A parte legal da computação, tirando as aulas é claro!</h4>
+			<h3>Entidades</h3>
+			<div class="entities">
+				<div class="entity">
+					<div class="entity_front">
+						<img src="assets/svg/aaacec.svg" width="45%">
+					</div>
+					<div class="entity_back">
+						<span class="entity_text">
+							<h3>AAACEC</h3>
+							<p>
+								A Associação Atlética Acadêmica da Ciência e Engenharia da Computação é a entidade que promove
+								a prática de esportes na Computação, além de realizar festas e eventos de integração.
+							</p>
+							<p><i class="fa fa-link"></i> <a href="http://aaacec.com/" target="_blank">http://aaacec.com</a></p>
+						</span>
+					</div>
+				</div>
+				<div class="entity">
+					<div class="entity_front">
+						<img src="assets/svg/caco.svg" width="45%">
+					</div>
+					<div class="entity_back">
+						<span class="entity_text">
+							<h3>CACO</h3>
+							<p>
+								O CACo é o centro acadêmico da Computação, entidade trabalha para garantir os interesses
+								dos estudantes e melhorar o curso como um todo.
+							</p>
+							<p><i class="fa fa-link"></i> <a href="http://www.caco.ic.unicamp.br" target="_blank">http://caco.ic.unicamp.br</a></p>
+						</span>
+					</div>
+				</div>
+				<div class="entity">
+					<div class="entity_front">
+						<img src="assets/svg/conpec.svg" width="80%">
+					</div>
+					<div class="entity_back">
+						<span class="entity_text">
+							<h3>CONPEC</h3>
+							<p>
+								A Conpec é a empresa júnior dos cursos de Ciência e Engenharia de Computação. Ótima oportunidade
+								para aplicar conhecimentos teóricos em prática, numa situação de mercado, com clientes, prazos e soluções reais.
+							</p>
+							<p><i class="fa fa-link"></i> <a href="http://www.conpec.com.br" target="_blank">http://conpec.com.br</a></p>
+						</span>
+					</div>
+				</div>
+				<div class="entity">
+					<div class="entity_front">
+						<img src="assets/svg/phoenix.svg" width="45%">
+					</div>
+					<div class="entity_back">
+						<span class="entity_text">
+							<h3>PHOENIX</h3>
+							<p>
+								Equipe de Robótica da UNICAMP composta por alunos da Mecânica, Elétrica e Computação. Desenvolvem projetos para participar de competições como a RoboCore.
+							</p>
+							<p><i class="fa fa-link"></i> <a href="http://www.phoenixunicamp.com.br" target="_blank">http://phoenixunicamp.com.br</a></p>
+						</span>
+					</div>
+				</div>
+				<div class="entity">
+					<div class="entity_front">
+						<img src="assets/svg/valorosa.svg" width="45%">
+					</div>
+					<div class="entity_back">
+						<span class="entity_text">
+							<h3>VALOROSA</h3>
+							<p>
+								Bateria universitária da Computação responsável por animar festas e empurrar a torcida em eventos esportivos (ou não) como o Intercomp, Interbatuc e UPA.
+							</p>
+							<p><i class="fa fa-link"></i> <a href="http://aaacec.com/bateria" target="_blank">http://aaacec.com/bateria</a></p>
+						</span>
+					</div>
+				</div>
+				<div class="entity">
+					<div class="entity_front">
+						<img src="assets/svg/gamux.png" width="250">
+					</div>
+					<div class="entity_back">
+						<span class="entity_text">
+							<h3>GAMUX</h3>
+							<p>
+								Grupo de Pesquisa e Desenvolvimento de Jogos da UNICAMP. Ótima oportunidade para quem tem curiosidade de saber como são feitos os jogos eletrônicos.
+							</p>
+							<p><i class="fa fa-link"></i> <a href="http://www.gamux.com.br" target="_blank">http://gamux.com.br</a></p>
+						</span>
+					</div>
+				</div>
+			</div>
+			
+			<h3>Treinos Esportivos</h3>
+			<p>Qualquer aluno devidamente matriculado pode participar dos treinos da AAACEC, basta pagar uma pequena mensalidade de <b>R$ 30,00</b> (Homens) ou <b>R$ 25,00</b> (Mulheres) para ter acesso a <b>TODOS OS ESPORTES!</b> Veja as modalidades nas quais a AAACEC compete:</p>
+			<div class="training">
+				<ul class="list">
+					<li>Atletismo</li>
+					<li>Basquete</li>
+					<li>Futebol de Campo</li>
+					<li>Futsal</li>
+				
+				</ul>
+				<ul class="list">
+					<li>Vôlei</li>
+					<li>Handebol</li>
+					<li>Tênis de Campo</li>
+					<li>Tênis de Mesa</li>
+				</ul>
+				<ul class="list">
+					<li>Natação</li>
+					<li>Taekwondo</li>
+					<li>Xadrez</li>
+				</ul>
+			</div>
+
+			<h3 style="margin-botton: 0">Calendário de Eventos</h3>
+			<ul id="timeEvent" class="timeline">
+				<li class="li-1 clearfix" data-anchor-target="#extra" data-45p-top="transform[outCubic]: translateY(100px); opacity: 0;" data-top="transform[outCubic]: translateY(0px); opacity: 1;">
+					<div class="timeline_date">Março</div>
+					<ul class="timeline_events">
+						<li>
+							<div class="timeline_title">
+								<div>Recepção / Palestra</div>
+								<div class="badge">Acadêmico</div>
+							</div>
+							<div class="timeline_desc">Primeiro contato com os veteranos e as entidades</div>
+						</li>
+						<li>
+							<div class="timeline_title">
+								<div>Calouríadas</div> 
+								<div class="badge sports">Esportivo</div>
+							</div>
+							<div class="timeline_desc">Evento disputado pelos bixos de todos os cursos da UNICAMP</div>
+						</li>
+						<li>
+							<div class="timeline_title">
+								<div class="resize">Choppada da Computação</div> 
+								<div class="badge party">Social</div>
+							</div>
+							<div class="timeline_desc">Choppada oficial do curso, geralmente realizado em conjunto com os cursos de Enfermagem</div>
+						</li>
+					</ul>
+				</li>
+				<li class="li-2 clearfix" data-anchor-target="#extra .timeline .li-1" data-90p-top="transform[outCubic]: translateY(100px); opacity: 0;" data--350-bottom="transform[outCubic]: translateY(0px); opacity: 1;">
+					<div class="timeline_date">Abril</div>
+					<ul class="timeline_events">
+						<li>
+							<div class="timeline_title">
+								<div>Pré-Olimpíadas</div> 
+								<div class="badge sports">Esportivo</div>
+							</div>
+							<div class="timeline_desc">Uma prévia do maior torneio esportivo dentro do campus</div>
+						</li>
+						
+					</ul>
+				</li>
+				<li class="li-3 clearfix" data-anchor-target="#extra .timeline .li-2" data-90p-top="transform[outCubic]: translateY(100px); opacity: 0;" data--350-bottom="transform[outCubic]: translateY(0px); opacity: 1;">
+					<div class="timeline_date">Maio</div>
+					<ul class="timeline_events">
+						<li>
+							<div class="timeline_title">
+								<div>Lottus</div> 
+								<div class="badge party">Social</div>
+							</div>
+							<div class="timeline_desc">A festa eletrônica oficial da Computação! Conta com a presença de grandes nomes do cenário</div>
+						</li>
+					</ul>
+				</li>
+				<li class="li-4 clearfix" data-anchor-target="#extra .timeline .li-3" data-90p-top="transform[outCubic]: translateY(100px); opacity: 0;" data--350-bottom="transform[outCubic]: translateY(0px); opacity: 1;">
+					<div class="timeline_date">Junho</div>
+					<ul class="timeline_events">
+						<li>
+							<div class="timeline_title">
+								<div>INTERCOMP</div> 
+								<div class="badge sports">Esportivo</div>
+								<div class="badge party">Social</div>
+							</div>
+							<div class="timeline_desc">Evento esportivo que reúne os principais cursos de computação do Estado</div>
+						</li>
+					</ul>
+				</li>
+				<li class="li-5 clearfix" data-anchor-target="#extra .timeline .li-4" data-90p-top="transform[outCubic]: translateY(100px); opacity: 0;" data--350-bottom="transform[outCubic]: translateY(0px); opacity: 1;">
+					<div class="timeline_date">Agosto</div>
+					<ul class="timeline_events">
+						<li>
+							<div class="timeline_title">
+								<div>SECOMP</div> 
+								<div class="badge">Acadêmico</div>
+							</div>
+							<div class="timeline_desc">Semana da computação que conta com palestras, workshops e muito mais</div>
+						</li>
+						<li>
+							<div class="timeline_title">
+								<div>Wonderland</div> 
+								<div class="badge party">Social</div>
+							</div>
+							<div class="timeline_desc">Festa com temática glow, toca gêneros variados de música</div>
+						</li>
+					</ul>
+				</li>
+				<li class="li-6 clearfix" data-anchor-target="#extra .timeline .li-5" data-90p-top="transform[outCubic]: translateY(100px); opacity: 0;" data--350-bottom="transform[outCubic]: translateY(0px); opacity: 1;">
+					<div class="timeline_date set">Setembro</div>
+					<ul class="timeline_events">
+						<li>
+							<div class="timeline_title">
+								<div>Olimpíadas</div> 
+								<div class="badge sports">Esportivo</div>
+							</div>
+							<div class="timeline_desc">Maior evento esportivo da UNICAMP. Reúne todos os cursos, além de cursos da unidade Limeira</div>
+						</li>
+						<li>
+							<div class="timeline_title">
+								<div>INTERANOS</div> 
+								<div class="badge sports">Esportivo</div>
+								<div class="badge party">Social</div>
+							</div>
+							<div class="timeline_desc">Evento esportivo entre os anos da computação. Sua chance de jogar contra seus veteranos</div>
+						</li>
+					</ul>
+				</li>
+				<li class="li-7 clearfix" data-anchor-target="#extra .timeline .li-6" data-90p-top="transform[outCubic]: translateY(100px); opacity: 0;" data--350-bottom="transform[outCubic]: translateY(0px); opacity: 1;">
+					<div class="timeline_date">Outubro</div>
+					<ul class="timeline_events">
+						<li>
+							<div class="timeline_title">
+								<div  class="resize">AAACEC Gaming Championship</div> 
+								<div class="badge sports">Esportivo</div>
+							</div>
+							<div class="timeline_desc">Torneio de jogos eletrônicos entre os anos da computação, além do tradicional campeonato de Magic</div>
+						</li>
+						<li>
+							<div class="timeline_title">
+								<div>MC Lovin' Party 4</div> 
+								<div class="badge party">Social</div>
+							</div>
+							<div class="timeline_desc">A maior festa em república da UNICAMP!</div>
+						</li>
+					</ul>
+				</li>
+			</ul>
+
+			<h3>Cursos diversos</h3>
+			<p>Fiquem ligados, pois existem diversos cursos sendo oferecidos dentro da UNICAMP, seja do seu curso ou não! Dentre eles destacam-se as <a style="color:#FF6D00;" href="http://fefnet172.fef.unicamp.br/forms/re-codesp/tabelao3.asp?periodo_fk=63" target="_blank">atividades da FEF</a>,  <a style="color:#FF6D00;" href="http://www.cabs.fee.unicamp.br/?t=6_Curso-de-Linguas" target="_blank">aulas de idiomas do CABS/CEL</a> e até <a style="color:#FF6D00;" href="http://ogrupodedanca.com.br/" target="_blank">aulas de dança!</a></p>
+
+			<h3>Ensaios da Valorosa</h3>
+			<p>Assim como os treinos, qualquer aluno pode participar, mesmo que não saiba tocar nenhum instrumento! Se esse for o caso, não perca a chance!</p>
+			<ul class="timeline">
+				<li class="clearfix" style="margin-bottom: 20pt;">
+					<div class="timeline_date">Terças</div>
+					<ul class="timeline_events">
+						<li>
+							<div class="timeline_title">
+								<div>12:00 às 13:00</div> 
+								<div class="badge sports">Esportivo</div>
+							</div>
+							<div class="timeline_desc">18:00 às 19:00</div>
+						</li>
+					</ul>
+				</li>
+				<li class="clearfix">
+					<div class="timeline_date">Quintas</div>
+					<ul class="timeline_events">
+						<li>
+							<div class="timeline_title">
+								<div>12:00 às 13:00</div> 
+								<div class="badge sports">Esportivo</div>
+							</div>
+							<div class="timeline_desc">18:00 às 19:00</div>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</section>
+		<section id="help" class="content">
+			<h1>Dúvidas / Dicas / Utilidades</h1>
+			<h4>Tire suas dúvidas e aproveite as dicas de quem já esteve no seu lugar!</h4>
+			<h3>Perguntas Frequentes</h3>
+			<div class="faq">
+				<div class="faq_cat">
+					<div class="drop">
+						<div class="drop_question clearfix">
+							<span><i class="fa fa-plus"></i> Quem entrou a partir da 2ª Chamada não tem Matrícula Online?</span>
+						</div>
+						<div class="drop_answer">
+							<p>
+								Não. A partir da 2ª Chamada as matrículas serão apenas presenciais!
+							</p>
+						</div>
+					</div>
+					<div class="drop">
+						<div class="drop_question">
+							<span><i class="fa fa-plus"></i> Fiz a matrícula, mas não escolhi minhas disciplinas. Como faço?</span>
+						</div>
+						<div class="drop_answer">
+							<p>
+								No primeiro semestre a DAC é que escolhe as disciplinas para você, automaticamente. A partir do 2º semestre você passa a ser encarregado de efetuar a pré-matrícula e escolher sua grade.
+							</p>
+						</div>
+					</div>
+					<div class="drop">
+						<div class="drop_question">
+							<span><i class="fa fa-plus"></i> Vou ter aulas nos primeiros semestres na FEEC ou no IC?</span>
+						</div>
+						<div class="drop_answer">
+							<p>
+								A maioria das aulas será ministrada nos Ciclos Básicos I e II, além de algumas aulas no IC 3.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="faq_cat">
+					<div class="drop">
+						<div class="drop_question">
+							<span><i class="fa fa-plus"></i> O que é AX / AA / AB?</span>
+						</div>
+						<div class="drop_answer">
+							<p>
+								Essas siglas indicam as modalidades do curso de Engenharia da Computação. Ao entrar no curso o aluno tem como habilitação, AX. No 3º semestre o aluno deve escolher em qual modalidade ele gostará de se especializar: AA - Sistemas de Computação (A-zóide) ou AB - Sistemas e Processos Industriais (B-zóide).
+							</p>
+							<p>
+								AA: almeja formar profissionais atuando no projeto e desenvolvimento de sistemas integrados de informação, de computação de grande porte, redes de computadores, software básico e aplicações. 
+							</p>
+							<p>
+								AB: dedica-se à formação de profissionais na área de sistemas que interagem com diversos processos presentes em engenharia. Este profissional está apto a projetar, construir, configurar e determinar a utilização de sistemas que captam, transmitem, processam e atuam sobre a informação registrada na forma de sinais de natureza diversa nos distintos ramos da engenharia.
+							</p>
+							<p>Para saber mais, fique ligado nas <a href="http://www.caco.ic.unicamp.br/portal/eventos/azoidebezoide/" target="_blank">palestras do CACo!</a></p>
+						</div>
+					</div>
+					<div class="drop">
+						<div class="drop_question">
+							<span><i class="fa fa-plus"></i> O que é 100 NOSSÃO?</span>
+						</div>
+						<div class="drop_answer">
+							<p>
+								Barulho, animação e festa! São características que estão sempre juntas ao “100 Nossão”. Este nada mais é do que um carrinho de supermercado com alguns Mega-Watts de som! Inicialmente patrocinado pela HBuster® e adquirido oficialmente em 2005, tem sido o maior agitador de festas e churrascos da Unicamp e não deixa ninguém dormir no Intercomp.
+							</p>
+						</div>
+					</div>
+					<div class="drop">
+						<div class="drop_question">
+							<span><i class="fa fa-plus"></i> Como faço para pegar um livro nas bibliotecas?</span>
+						</div>
+						<div class="drop_answer">
+							<p>
+								Você deverá se cadastrar no sistema de bibliotecas da UNICAMP. Vá até a Biblioteca Central e cadastre-se o quanto antes!
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<h3>Dicas</h3>
+			<div class="tips">
+				<ol class="list">
+					<li>Os livros da Computação ficam no IMECC e na BAE (dentro da Biblioteca Central)</li>
+					<li>A partir do 2º semestre, use o <a href="http://gde.ir" target="_blank">GDE</a> para organizar sua grade de disciplinas!</li>
+					<li>As disciplinas ofertadas pelo IFGW (Instituto de física) possuem média 7, as demais possuem média 5</li>
+					<li>Peça conselhos e informações aos seus veteranos! Eles não mordem! (pelo menos a maioria)</li>
+				</ol>
+				<ol class="list">
+					<li>Precisando de atendimento de saúde? Vá até o <a href="http://www.cecom.unicamp.br/" target="_blank">CECOM</a>, é de graça!</li>
+					<li>Anote em algum lugar bem visível todas as datas de prova que você terá durante o semestre!</li>
+					<li>Geralmente as disciplinas possuem 3 provas, P1, P2 e P3. Estude bastante desde a P1 para não correr o risco de pegar exame!</li>
+					<li>Recorra aos seus veteranos quando precisar de materiais específicos para certas disciplinas, exemplo: Jaleco, óculos de proteção e luvas para a disciplina de química, QG100.</li>
+				</ol>
+			</div>
+			<h3>Utilidades</h3>
+			<div class="utilities">
+				<ol class="list">
+					<li><a href="bit.ly/manualdobixo" target="_blank">Manual do Bixo - CACo</a></li>
+					<li><a href="http://www.sae.unicamp.br/portal/" target="_blank">SAE - (Bolsas)</a></li>
+					<li><a href="http://www.ccuec.unicamp.br/ccuec/redesemfio_eduroam" target="_blank">Tutorial: Acessar o Wifi da UNICAMP</a></li>
+					<li><a href="http://www.caco.ic.unicamp.br/portal/bancodeprovas/" target="_blank">Banco de Provas - CACo</a></li>
+					<li><a href="http://www.sbu.unicamp.br/portal/" target="_blank">SBU</a></li>
+				</ol>
+				<ol class="list">
+					<li><a href="assets/pdf/Manual-do-Bixo-AAACEC-2015.pdf" target="_blank">Manual do Bixo - AAACEC</a></li>
+					<li><a href="http://gde.ir" target="_blank">GDE</a></li>
+					<li><a href="http://www.dac.unicamp.br/portal/grad/calendarios/calgra2015/" target="">Calendário de Graduação 2015</a></li>
+					<li><a href="http://sap.prefeitura.unicamp.br/sap/pesquisa_achados_perdidos.jsf" target="_blank">Achados e Perdidos</a></li>
+				</ol>
+			</div>
+			<h3>Grupo do Facebook</h3>
+			<p style="margin-top: 0;">Se você ainda não faz parte do grupo "Bixos Computação Unicamp 2015" peça a algum veterano para adicioná-lo!</p>
+			<footer>
+				Made with <i class="fa fa-heart"></i> by Phapha & Serginho @ AAACEC 2015
+			</footer>
+		</section>
+	</div>
+
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-		<script src="assets/js/jquery.inview.min.js"></script>
-		<script src="assets/js/move.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4CQbkdcRIS3yndQKzA-9tcLgzj0E-RV0"></script>
+		<script src="assets/js/routes.js"></script>
+		
+		<script src="assets/js/vendor/skrollr.min.js"></script>
+		<script src="assets/js/vendor/jquery.lazy-line-painter-1.5.1.min.js"></script>
+		<script src="assets/js/vendor/jquery.animate-number.min.js"></script>
 		<script>
 			$(function() {
-				var firstSection = 0;
-				var lastSection = 4;
-				var currentSection = 0;
-				var scrollingBeHappening = false;
+				var unique = 0;
+				var s = skrollr.init({
+					forceHeight: false,
+					keyframe: function(element, name, direction) {
+						/* In order to get element on jquery sintaxe, use $(element) */
+						if(name == 'data200Top' && direction == 'down' && unique == 0 || name == 'data-200Bottom' && direction == 'up' && unique == 0) {
+							$('.number').each(function() {
+								$(this).text(0);
+								$(this).animateNumber({ 
+									number: $(this).attr('data-number')
+								}, 1500);
+							});
+							unique = 1;
+						}
+					}
+				});
+				
+				/* Adding effect to entities */
+				var cards = document.querySelectorAll(".entity");
+				for ( var i  = 0, len = cards.length; i < len; i++ ) {
+					var card = cards[i];
+					clickListener( card );
+				}
 
-				$('body').bind('keydown', function(e) {
-					if ((e.keyCode == '38') || (e.keyCode == '40')) {
-						e.preventDefault();
+				function clickListener(card) {
+					card.addEventListener( "click", function() {
+						var c = this.classList;
+						c.contains("flipped") === true ? c.remove("flipped") : c.add("flipped");
+						$(".entity").not($(this)).each(function() {
+							$(this).removeClass("flipped");
+						});
+					});
+				}
+
+				/* Dropdown */
+				$('.drop').click(function () {
+					console.log("cliqueeee!");
+					if($(this).hasClass('active')) {
+						$(this).children('.drop_question').children('span').children('i').removeClass('fa-minus').addClass('fa-plus');
+						$(this).children('.drop_answer').slideUp();
+						$(this).removeClass('active');
+					} else {
+						$(this).children('.drop_question').children('span').children('i').removeClass('fa-plus').addClass('fa-minus');
+						$(this).parent().children('.drop').not($(this)).each(function() {
+							$(this).children('.drop_question').children('span').children('i').removeClass('fa-minus').addClass('fa-plus');
+							$(this).children('.drop_answer').slideUp();
+							$(this).removeClass('active');
+						});
+						$(this).children('.drop_answer').slideDown();
+						$(this).addClass('active');
 					}
 				});
 
-				$('body').bind('wheel DOMMouseScroll mousewheel keyup', function(e) {
-					if (scrollingBeHappening === false) {
-						if (e.type == 'mousewheel') { // CHROME
-							if (e.originalEvent.wheelDelta >= 0) {
-								currentSection = (currentSection - 1)>=firstSection ? currentSection - 1: currentSection;
-								scrollDirection = 'down';
-							}
-							else {
-								currentSection = (currentSection + 1)<=lastSection ? currentSection + 1: currentSection;
-								scrollDirection = 'up';
-							}
-							scrollingBeHappening = true;
-						}
-						else if (e.type == 'DOMMouseScroll') { // OLD FIREFOX
-							if (e.originalEvent.detail >= 0) {
-								currentSection = (currentSection - 1)>=firstSection ? currentSection - 1: currentSection;
-								scrollDirection = 'down';
-							}
-							else {
-								currentSection = (currentSection + 1)<=lastSection ? currentSection + 1: currentSection;
-								scrollDirection = 'up';
-							}
-							scrollingBeHappening = true;
-						}
-						else if (e.type == 'wheel') { // NEW FIREFOX
-							if (e.originalEvent.deltaY <= 0) {
-								currentSection = (currentSection - 1)>=firstSection ? currentSection - 1: currentSection;
-								scrollDirection = 'up';
-							}
-							else {
-								currentSection = (currentSection + 1)<=lastSection ? currentSection + 1: currentSection;
-								scrollDirection = 'down';
-							}
-							scrollingBeHappening = true;
-						}
-						else if (e.type == 'keyup') { // KEY PRESS
-							if (e.keyCode == '38') {
-								currentSection = (currentSection - 1)>=firstSection ? currentSection - 1: currentSection;
-								scrollDirection = 'up';
-							}
-							else if (e.keyCode == '40') {
-								currentSection = (currentSection + 1)<=lastSection ? currentSection + 1: currentSection;
-								scrollDirection = 'down';
-							}
-							//scrollingBeHappening = true;
-						}
+				/* 
+				* Lazy Line Painter - Path Object 
+				* Generated using 'SVG to Lazy Line Converter'
+				* 
+				* http://lazylinepainter.info 
+				* Copyright 2013, Cam O'Connell  
+				*  
+				*/ 
 
-						$('html, body').animate({
-							scrollTop: $("#" + currentSection).offset().top
-						}, 1000, function(){
-							setTimeout (function() {
-								scrollingBeHappening = false;
-							}, 500)
-						});
+				/* 
+				* Lazy Line Painter - Path Object 
+				* Generated using 'SVG to Lazy Line Converter'
+				* 
+				* http://lazylinepainter.info 
+				* Copyright 2013, Cam O'Connell  
+				*  
+				*/ 
 
-						return false;
-					} else if (e.type == 'keyup' && e.keyCode == 27) {
+				var pathObj = {
+					"unicamp": {
+						"strokepath": [
+						{
+						"path": "  M169.807,181.404c-9.327-9.243-18.565-18.398-27.896-27.644c4.896-5.967,7.785-12.771,8.552-20.5c23.523,0,46.99,0,70.567,0  c0.721,3.068,2.146,5.658,4.417,7.931c-8.505,7.839-17.396,15.085-26.713,21.814c-8.138,5.878-19.464,13.185-28.776,18.31",
+						"duration": 300
+						},
+						{
+						"path": "  M109.999,7.861c0,28.636,0,57.125,0,85.646c-2.361,0.484-4.726,0.969-7.26,1.489C92.196,69.315,81.616,43.545,70.998,17.68  c11.006-5.142,26.252-9.364,39.086-9.864",
+						"duration": 300
+						},
+						{
+						"path": "  M148.342,20.952c1.15,2.515,2.906,4.555,5.276,6.24c-9.452,22.629-18.899,45.247-28.357,67.891  c-2.494-0.514-4.936-1.018-7.402-1.525c-0.217-0.799-0.313-83.607-0.076-85.708c5.031-0.512,23.38,2.16,29.332,4.28  c-0.255,2.062-0.344,5.374,1.25,8.889",
+						"duration": 300
+						},
+						{
+						"path": "  M65.558,20.559c10.527,25.58,21.058,51.17,31.57,76.714c-2.355,1.579-4.632,3.105-6.831,4.579  C71.404,82.966,52.463,64.033,33.46,45.038c4.921-6.383,22.457-19.889,32.124-24.639",
+						"duration": 360
+						},
+						{
+						"path": "  M59.804,188.884c10.207-10.201,20.358-20.348,30.586-30.57c10.106,8.093,21.637,10.4,34.408,6.92  c2.603,6.502,5.177,12.934,7.781,19.439c-5.189,3.698-7.482,8.633-6.994,14.967c-21.928,3.385-45.835,0.26-65.752-10.657",
+						"duration": 300
+						},
+						{
+						"path": "  M167.957,28.801c2.122-0.853,3.979-2.148,5.606-3.912c8.343,5.308,15.289,12.034,21.153,19.69  c-19.071,19.159-38.101,38.276-57.104,57.367c-2.277-1.531-4.459-2.997-6.757-4.542c9.416-22.504,18.864-45.088,28.35-67.757  c2.341,0.425,5.504,0.386,8.551-0.786",
+						"duration": 300
+						},
+						{
+						"path": "  M29.012,50.051C47.853,68.89,66.696,87.73,85.513,106.544c-1.361,2.067-2.803,4.256-4.33,6.575  c-23.432-9.791-46.967-19.625-70.48-29.45c0.906-6.298,10.715-25.354,18.131-33.77",
+						"duration": 300
+						},
+						{
+						"path": "  M216.388,84.76c-23.299,9.552-46.526,19.076-69.702,28.579c-1.57-2.355-3.089-4.634-4.554-6.832  c18.757-18.755,37.541-37.538,56.377-56.373c6.456,9.467,13.407,22.931,17.866,34.514",
+						"duration": 300
+						},
+						{
+						"path": "  M223.105,122.141c-0.908,1.463-1.54,3.057-1.979,4.795c-23.506,0-47,0-70.56,0c-0.499-2.542-1.001-5.108-1.546-7.887  c23.164-9.499,46.364-19.013,69.673-28.57c3.434,8.853,6.448,17.75,9.189,26.814c-1.453,1.003-3.644,3.105-4.752,4.818",
+						"duration": 300
+						},
+						{
+						"path": "  M9.189,89.633c23.274,9.73,46.448,19.418,69.585,29.091c-0.533,2.759-1.046,5.414-1.59,8.23c-22.274,0-44.586,0-67.049,0  c-1.928-10.713-2.445-25.514-0.969-37.306",
+						"duration": 300
+						},
+						{
+						"path": "  M11.87,133.262c21.888,0,43.619,0,65.312,0c0.538,2.722,1.046,5.294,1.579,7.988c-17.129,7.028-34.315,14.079-51.61,21.177  c-5.37-7.904-12.568-19.61-15.318-29.11",
+						"duration": 300
+						},
+						{
+						"path": "  M31.277,167.286c16.7-6.854,33.255-13.646,49.795-20.434c1.579,2.391,3.069,4.646,4.667,7.064  c-10.411,10.444-20.937,21.005-31.547,31.649c-7.374-4.67-17.191-11.75-22.858-18.167",
+						"duration": 300
+						},
+						{
+						"path": "  M150.841,186.058c-3.414-2.95-7.57-4.126-12.572-3.532c-2.617-6.522-5.239-13.054-7.828-19.506c2.452-1.623,4.801-3.179,7.09-4.693  c8.7,8.709,17.432,17.447,26.267,26.291c-3.204,1.618-6.466,3.267-9.805,4.952c-0.427-0.599-1.44-2.051-3.128-3.488",
+						"duration": 300
+						},
+						{
+						"path": "  M229.834,134.149c-1.021-2.125-0.984-3.171-0.985-4.036c-0.005-5.06,4.158-9.281,9.188-9.248c5.614,0.038,9.378,4.957,9.006,9.197  c0.363,4.903-4.129,9.203-9.016,9.146c-3.601-0.042-6.716-2.082-8.219-5.06",
+						"duration": 300
+						},
+						{
+						"path": "  M154.052,18.659c-0.719-1.531-0.969-2.75-0.953-4.046c-0.005-5.06,4.158-9.281,9.188-9.248c5.614,0.038,9.378,4.957,9.006,9.197  c0.363,4.903-4.129,9.203-9.016,9.146c-3.601-0.042-6.716-2.082-8.219-5.06",
+						"duration": 300
+						},
+						{
+						"path": "  M132.917,201.185c-1.021-2.125-0.984-3.172-0.985-4.036c-0.005-5.06,4.158-9.281,9.188-9.247c5.614,0.037,9.378,4.956,9.006,9.196  c0.363,4.903-4.129,9.203-9.016,9.146c-3.601-0.042-6.716-2.082-8.219-5.061",
+						"duration": 300
+						}
+						],
+						"dimensions": {
+						"width": 254,
+						"height": 214
+						}
+					}
+				}; 
 
-					} else {
-						return false;
-					};
-				});
+				/* 
+				Setup and Paint your lazyline! 
+				*/ 
 
-				function animatedScrollTo (id) {
-					$('html, body').animate({
-						scrollTop: $(id).offset().top
-					}, 1000);
-				};
+				$('#unicamp').lazylinepainter({
+					'svgData': pathObj,
+					'strokeWidth': 2,
+					'responsive': true,
+					'strokeColor': '#d74030'
+				}).lazylinepainter('paint'); 
+
 			});
 		</script>
 	</body>
+
 </html>
