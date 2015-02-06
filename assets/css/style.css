@@ -430,7 +430,7 @@ section:nth-child(4) {
 }
 
 ol.list {
-	list-style-type: decimal;
+	list-style-type: square;
 	padding-left: 3.5em;
 }
 
@@ -554,22 +554,12 @@ section:nth-child(6) {
 }
 
 .entities {
-	display: -webkit-box;
-	display: flex;
-	-webkit-align-items: center;
-	align-items: center;
-	-webkit-justify-content: center;
-	justify-content: center;
-	-webkit-flex-direction: row;
-	flex-direction: row;
-	-webkit-flex-wrap: wrap;
-	flex-wrap: wrap;
-	-webkit-align-content: flex-end;
-	align-content: flex-end;
+	width: 100%;
 	margin-bottom: 20pt;
 }
 
 .entity {
+	float: left;
 	cursor: pointer;
 	position: relative;
 	border: 1px solid #34495e;
@@ -689,11 +679,8 @@ section:nth-child(7) {
 
 .faq_cat {
 	width: 50%;
-	margin-left: 20px;
-}
-
-.faq_cat {
-	margin: 0 10px;
+	box-sizing: border-box;
+	padding: 0 10px;
 } 
 
 .drop {
@@ -805,6 +792,10 @@ footer {
 	.faq {
 		display: block;
 	}
+
+	.faq_cat {
+		width: 100%;
+	}
 }
 
 @media (max-width: 600px) {
@@ -878,7 +869,6 @@ footer {
 	.locals > .list {
 		width: 100%;
 	}
-
 
 	.set {
 		font-size: 4.8em;
