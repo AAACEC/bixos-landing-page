@@ -116,12 +116,14 @@ h5 {
 
 p, 
 b, 
-.list li {
+.list li,
+.listFixed li {
 	font-size: 2em;
 	line-height: 1.3em;
 }
 
-.small, i {
+.small, 
+i {
 	font-size: 1.5em;
 }
 
@@ -157,8 +159,13 @@ b,
 	font-size: 1em;
 }
 
-.list  b {
+.list  b,
+.listFixed b {
 	font-size: 1em;
+}
+
+.listFixed .small {
+	font-size: .8em;
 }
 
 .bus {
@@ -406,7 +413,6 @@ section:nth-child(4) {
 	border: 1px solid #2980b9;
 }
 
-
 .list {
 	list-style-type: none;
 	-webkit-padding-start: 0;
@@ -422,6 +428,7 @@ section:nth-child(4) {
 	display: inline-block;
 	width: 100%;
 	margin-bottom: 1.5em;
+	box-sizing: border-box;
 }
 
 .list > li .small {
@@ -429,9 +436,23 @@ section:nth-child(4) {
 	line-height: 1em;
 }
 
-ol.list {
-	list-style-type: square;
+.listFixed {
+	width: 50%;
+	float: left;
+	-webkit-padding-start: 0;
+	-moz-padding-start: 0;
 	padding-left: 3.5em;
+	box-sizing: border-box;
+}
+
+.listFixed > li {
+	width: 100%;
+	margin-bottom: 1.5em;
+	box-sizing: border-box;
+}
+
+ol.infoList {
+	padding-left: 0;
 }
 
 /* Section 5 */
@@ -457,15 +478,18 @@ section:nth-child(5) {
 }
 
 .locals {
-	display: -webkit-box;
-	display: flex;
-	margin: 0 -20px;
 	margin-top: 20px;
 }
 
-.locals > .list {
+.locals > .listFixed {
+	list-style: none;
+	float: left;
 	width: 50%;
-	margin: 0 20px;
+	padding-left: 3.5em;
+	box-sizing: border-box;
+}
+
+.locals > .listFixed:first-child {
 	padding-left: 0;
 }
 
@@ -474,9 +498,12 @@ section:nth-child(5) {
 }
 
 .route_controls {
-	display: -webkit-box;
-	display: flex;
 	margin-bottom: 20px;
+}
+
+.route_controls > div {
+	float: left;
+	width: 40%;
 }
 
 .route_controls .select_control {
@@ -704,22 +731,24 @@ section:nth-child(7) {
 	background: rgba(0, 0, 0, 0.2);
 }
 
-.tips, .utilities {
-	display: -webkit-box;
-	display: flex;
-}
-
-.tips .list, .utilities .list {
-	width: 50%;
+.tips .listFixed, 
+.utilities .listFixed {
 	-webkit-margin-before: 0;
 	-webkit-margin-after: 0;
+	box-sizing: border-box;
+	padding-left: 4.5em;
 }
 
-.tips .list {
+.tips .listFixed:first-child, 
+.utilities .listFixed:first-child {
+	padding-left: 3.5em;
+}
+
+.tips .listFixed {
 	list-style-type: circle;
 }
 
-.utilities .list {
+.utilities .listFixed {
 	list-style-type: square;
 }
 
@@ -823,8 +852,23 @@ footer {
 		padding-left: 0;
 	}
 
-	.tips, .utilities {
-		flex-direction: column;
+	.route_controls > div {
+		float: none;
+		width: 100%;
+	}
+
+	.route_controls > div:nth-child(2n+1) {
+		padding-left: 0;
+	}
+
+	.route_controls > .select_control {
+		width: 100%;
+	}
+
+	.tips .listFixed, .utilities .listFixed {
+		width: 100%;
+		float: none;
+		padding-left: 3.5em;
 	}
 }
 
@@ -861,13 +905,10 @@ footer {
 		height: 300px;
 	}
 
-	.locals {
-		-webkit-flex-direction: column;
-		flex-direction: column;
-	}
-
-	.locals > .list {
+	.locals > .listFixed {
 		width: 100%;
+		display: block;
+		padding-left: 0;
 	}
 
 	.set {
