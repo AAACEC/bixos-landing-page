@@ -590,7 +590,7 @@ section:nth-child(6) {
 	cursor: pointer;
 	position: relative;
 	border: 1px solid #34495e;
-	width: calc(100% / 3);
+	width: calc(100% / 4);
 	box-sizing: border-box;
 	padding: 20px;
 	text-align: center;
@@ -662,6 +662,13 @@ section:nth-child(6) {
 	display: inline-block;
     height: 100%;
     vertical-align: middle;
+}
+
+.entity_front .png {
+	width: auto;
+	height : auto;
+	max-height: 100%;
+	max-width: 100%;
 }
 
 .entity_text h3 {
