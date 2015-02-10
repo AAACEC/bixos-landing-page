@@ -590,7 +590,7 @@ section:nth-child(6) {
 	cursor: pointer;
 	position: relative;
 	border: 1px solid #34495e;
-	width: calc(100% / 3);
+	width: calc(100% / 4);
 	box-sizing: border-box;
 	padding: 20px;
 	text-align: center;
