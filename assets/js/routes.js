@@ -14,6 +14,7 @@
 	function createMap() {
 		var mapOptions = {
 			zoom: 16,
+			scrollwheel: false,
 
 			// Unicamp
 			center: new google.maps.LatLng(-22.8159666, -47.070069)
