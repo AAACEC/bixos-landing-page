@@ -664,13 +664,6 @@ section:nth-child(6) {
     vertical-align: middle;
 }
 
-.entity_front .png {
-	width: auto;
-	height : auto;
-	max-height: 100%;
-	max-width: 100%;
-}
-
 .entity_text h3 {
 	margin-top: 10px;
 }
