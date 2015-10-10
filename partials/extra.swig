@@ -1,0 +1,291 @@
+
+<section id="extra" class="content">
+	<h1>Atividades extracurriculares: O que fazer na UNICAMP, além de estudar?</h1>
+	<h4>A parte legal da computação, tirando as aulas é claro!</h4>
+	<h3>Entidades</h3>
+	<div class="entities clearfix">
+		<div class="entity">
+			<div class="entity_front">
+				<img src="assets/svg/aaacec.svg" width="45%">
+			</div>
+			<div class="entity_back">
+				<span class="entity_text">
+					<h3>AAACEC</h3>
+					<p>
+						A Associação Atlética Acadêmica da Ciência e Engenharia da Computação é a entidade que promove
+						a prática de esportes na Computação, além de realizar festas e eventos de integração.
+					</p>
+					<p><i class="fa fa-link"></i> <a href="http://aaacec.com/" target="_blank">http://aaacec.com</a></p>
+				</span>
+			</div>
+		</div>
+		<div class="entity">
+			<div class="entity_front">
+				<img src="assets/svg/caco.svg" width="45%">
+			</div>
+			<div class="entity_back">
+				<span class="entity_text">
+					<h3>CACO</h3>
+					<p>
+						O CACo é o centro acadêmico da Computação, entidade trabalha para garantir os interesses
+						dos estudantes e melhorar o curso como um todo.
+					</p>
+					<p><i class="fa fa-link"></i> <a href="http://www.caco.ic.unicamp.br" target="_blank">http://caco.ic.unicamp.br</a></p>
+				</span>
+			</div>
+		</div>
+		<div class="entity">
+			<div class="entity_front">
+				<img src="assets/svg/conpec.svg" width="80%">
+			</div>
+			<div class="entity_back">
+				<span class="entity_text">
+					<h3>CONPEC</h3>
+					<p>
+						A Conpec é a empresa júnior dos cursos de Ciência e Engenharia de Computação. Ótima oportunidade
+						para aplicar conhecimentos teóricos em prática, numa situação de mercado, com clientes, prazos e soluções reais.
+					</p>
+					<p><i class="fa fa-link"></i> <a href="http://www.conpec.com.br" target="_blank">http://conpec.com.br</a></p>
+				</span>
+			</div>
+		</div>
+		<div class="entity">
+			<div class="entity_front">
+				<img src="assets/svg/phoenix.svg" width="45%">
+			</div>
+			<div class="entity_back">
+				<span class="entity_text">
+					<h3>PHOENIX</h3>
+					<p>
+						Equipe de Robótica da UNICAMP composta por alunos da Mecânica, Elétrica e Computação. Desenvolvem projetos para participar de competições como a RoboCore.
+					</p>
+					<p><i class="fa fa-link"></i> <a href="http://www.phoenixunicamp.com.br" target="_blank">http://phoenixunicamp.com.br</a></p>
+				</span>
+			</div>
+		</div>
+		<div class="entity">
+			<div class="entity_front">
+				<img src="assets/svg/valorosa.svg" width="45%">
+			</div>
+			<div class="entity_back">
+				<span class="entity_text">
+					<h3>VALOROSA</h3>
+					<p>
+						Bateria universitária da Computação responsável por animar festas e empurrar a torcida em eventos esportivos (ou não) como o Intercomp, Interbatuc e UPA.
+					</p>
+					<p><i class="fa fa-link"></i> <a href="http://aaacec.com/bateria" target="_blank">http://aaacec.com/bateria</a></p>
+				</span>
+			</div>
+		</div>
+		<div class="entity">
+			<div class="entity_front">
+				<img src="assets/svg/gamux.svg" width="45%">
+			</div>
+			<div class="entity_back">
+				<span class="entity_text">
+					<h3>GAMUX</h3>
+					<p>
+						Grupo de Pesquisa e Desenvolvimento de Jogos da UNICAMP. Ótima oportunidade para quem tem curiosidade de saber como são feitos os jogos eletrônicos.
+					</p>
+					<p><i class="fa fa-link"></i> <a href="http://www.gamux.com.br" target="_blank">http://gamux.com.br</a></p>
+				</span>
+			</div>
+		</div>
+		<div class="entity">
+			<div class="entity_front">
+				<img src="assets/svg/ger.svg" width="45%">
+			</div>
+			<div class="entity_back">
+				<span class="entity_text">
+					<h3>GER</h3>
+					<p>
+						Grupo de robótica autônoma com membros do curso de Computação e Engenharia de Controle e Automação. Participam anualmente de competições (CBR, Freescale Cup), além de realizar outros projetos.
+					</p>
+					<p><i class="fa fa-link"></i> <a href="https://www.facebook.com/unicampger" target="_blank">https://facebook.com/unicampger</a></p>
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<h3>Treinos Esportivos</h3>
+	<p>Qualquer aluno devidamente matriculado pode participar dos treinos da AAACEC, basta pagar uma pequena mensalidade de <b>R$ 30,00</b> (Homens) ou <b>R$ 25,00</b> (Mulheres) para ter acesso a <b>TODOS OS ESPORTES COLETIVOS</b>!</p>
+	<p>E para vocês bixos o 1º mês é totalmente <b>FREE</b>! Veja as modalidades nas quais a AAACEC compete:</p>
+	<div class="training">
+		<ul class="list">
+			<li>Atletismo</li>
+			<li>Basquete</li>
+			<li>Futebol de Campo</li>
+			<li>Futsal</li>
+
+		</ul>
+		<ul class="list">
+			<li>Vôlei</li>
+			<li>Handebol</li>
+			<li>Tênis de Campo</li>
+			<li>Tênis de Mesa</li>
+		</ul>
+		<ul class="list">
+			<li>Natação</li>
+			<li>Taekwondo</li>
+			<li>Xadrez</li>
+		</ul>
+	</div>
+
+	<h3 style="margin-botton: 0">Calendário de Eventos</h3>
+	<ul id="timeEvent" class="timeline">
+		<li class="li-1 clearfix" data-anchor-target="#extra" data-45p-top="transform[outCubic]: translateY(100px); opacity: 0;" data-top="transform[outCubic]: translateY(0px); opacity: 1;">
+			<div class="timeline_date">Março</div>
+			<ul class="timeline_events">
+				<li>
+					<div class="timeline_title">
+						<div>Recepção / Palestra</div>
+						<div class="badge">Acadêmico</div>
+					</div>
+					<div class="timeline_desc">Primeiro contato com os veteranos e as entidades</div>
+				</li>
+				<li>
+					<div class="timeline_title">
+						<div>Calouríadas</div>
+						<div class="badge sports">Esportivo</div>
+					</div>
+					<div class="timeline_desc">Evento disputado pelos bixos de todos os cursos da UNICAMP</div>
+				</li>
+				<li>
+					<div class="timeline_title">
+						<div class="resize">Choppada da Computação</div>
+						<div class="badge party">Social</div>
+					</div>
+					<div class="timeline_desc">Choppada oficial do curso, geralmente realizado em conjunto com os cursos de Enfermagem</div>
+				</li>
+			</ul>
+		</li>
+		<li class="li-2 clearfix" data-anchor-target="#extra .timeline .li-1" data-90p-top="transform[outCubic]: translateY(100px); opacity: 0;" data--350-bottom="transform[outCubic]: translateY(0px); opacity: 1;">
+			<div class="timeline_date">Abril</div>
+			<ul class="timeline_events">
+				<li>
+					<div class="timeline_title">
+						<div>Pré-Olimpíadas</div>
+						<div class="badge sports">Esportivo</div>
+					</div>
+					<div class="timeline_desc">Uma prévia do maior torneio esportivo dentro do campus</div>
+				</li>
+
+			</ul>
+		</li>
+		<li class="li-3 clearfix" data-anchor-target="#extra .timeline .li-2" data-90p-top="transform[outCubic]: translateY(100px); opacity: 0;" data--350-bottom="transform[outCubic]: translateY(0px); opacity: 1;">
+			<div class="timeline_date">Maio</div>
+			<ul class="timeline_events">
+				<li>
+					<div class="timeline_title">
+						<div>Lottus</div>
+						<div class="badge party">Social</div>
+					</div>
+					<div class="timeline_desc">A festa eletrônica oficial da Computação! Conta com a presença de grandes nomes do cenário</div>
+				</li>
+			</ul>
+		</li>
+		<li class="li-4 clearfix" data-anchor-target="#extra .timeline .li-3" data-90p-top="transform[outCubic]: translateY(100px); opacity: 0;" data--350-bottom="transform[outCubic]: translateY(0px); opacity: 1;">
+			<div class="timeline_date">Junho</div>
+			<ul class="timeline_events">
+				<li>
+					<div class="timeline_title">
+						<div>INTERCOMP</div>
+						<div class="badge sports">Esportivo</div>
+						<div class="badge party">Social</div>
+					</div>
+					<div class="timeline_desc">Evento esportivo que reúne os principais cursos de computação do Estado</div>
+				</li>
+			</ul>
+		</li>
+		<li class="li-5 clearfix" data-anchor-target="#extra .timeline .li-4" data-90p-top="transform[outCubic]: translateY(100px); opacity: 0;" data--350-bottom="transform[outCubic]: translateY(0px); opacity: 1;">
+			<div class="timeline_date">Agosto</div>
+			<ul class="timeline_events">
+				<li>
+					<div class="timeline_title">
+						<div>SECOMP</div>
+						<div class="badge">Acadêmico</div>
+					</div>
+					<div class="timeline_desc">Semana da computação que conta com palestras, workshops e muito mais</div>
+				</li>
+				<li>
+					<div class="timeline_title">
+						<div>Wonderland</div>
+						<div class="badge party">Social</div>
+					</div>
+					<div class="timeline_desc">Festa com temática glow, toca gêneros variados de música</div>
+				</li>
+			</ul>
+		</li>
+		<li class="li-6 clearfix" data-anchor-target="#extra .timeline .li-5" data-90p-top="transform[outCubic]: translateY(100px); opacity: 0;" data--350-bottom="transform[outCubic]: translateY(0px); opacity: 1;">
+			<div class="timeline_date set">Setembro</div>
+			<ul class="timeline_events">
+				<li>
+					<div class="timeline_title">
+						<div>Olimpíadas</div>
+						<div class="badge sports">Esportivo</div>
+					</div>
+					<div class="timeline_desc">Maior evento esportivo da UNICAMP. Reúne todos os cursos, além de cursos da unidade Limeira</div>
+				</li>
+				<li>
+					<div class="timeline_title">
+						<div>INTERANOS</div>
+						<div class="badge sports">Esportivo</div>
+						<div class="badge party">Social</div>
+					</div>
+					<div class="timeline_desc">Evento esportivo entre os anos da computação. Sua chance de jogar contra seus veteranos</div>
+				</li>
+			</ul>
+		</li>
+		<li class="li-7 clearfix" data-anchor-target="#extra .timeline .li-6" data-90p-top="transform[outCubic]: translateY(100px); opacity: 0;" data--350-bottom="transform[outCubic]: translateY(0px); opacity: 1;">
+			<div class="timeline_date">Outubro</div>
+			<ul class="timeline_events">
+				<li>
+					<div class="timeline_title">
+						<div  class="resize">AAACEC Gaming Championship</div>
+						<div class="badge sports">Esportivo</div>
+					</div>
+					<div class="timeline_desc">Torneio de jogos eletrônicos entre os anos da computação, além do tradicional campeonato de Magic</div>
+				</li>
+				<li>
+					<div class="timeline_title">
+						<div>MC Lovin' Party 4</div>
+						<div class="badge party">Social</div>
+					</div>
+					<div class="timeline_desc">A maior festa em república da UNICAMP!</div>
+				</li>
+			</ul>
+		</li>
+	</ul>
+
+	<h3>Cursos diversos</h3>
+	<p>Fiquem ligados, pois existem diversos cursos sendo oferecidos dentro da UNICAMP, seja do seu curso ou não! Dentre eles destacam-se as <a style="color:#FF6D00;" href="http://fefnet172.fef.unicamp.br/forms/re-codesp/tabelao3.asp?periodo_fk=63" target="_blank">atividades da FEF</a>,  <a style="color:#FF6D00;" href="http://www.cabs.fee.unicamp.br/?t=6_Curso-de-Linguas" target="_blank">aulas de idiomas do CABS/CEL</a> e até <a style="color:#FF6D00;" href="http://ogrupodedanca.com.br/" target="_blank">aulas de dança!</a></p>
+
+	<h3>Ensaios da Valorosa</h3>
+	<p>Assim como os treinos, qualquer aluno pode participar, mesmo que não saiba tocar nenhum instrumento! Se esse for o caso, não perca a chance!</p>
+	<ul class="timeline">
+		<li class="clearfix" style="margin-bottom: 20pt;">
+			<div class="timeline_date">Terças</div>
+			<ul class="timeline_events">
+				<li>
+					<div class="timeline_title">
+						<div>12:00 às 13:00</div>
+						<div class="badge sports">Esportivo</div>
+					</div>
+					<div class="timeline_desc">18:00 às 19:00</div>
+				</li>
+			</ul>
+		</li>
+		<li class="clearfix">
+			<div class="timeline_date">Quintas</div>
+			<ul class="timeline_events">
+				<li>
+					<div class="timeline_title">
+						<div>12:00 às 13:00</div>
+						<div class="badge sports">Esportivo</div>
+					</div>
+					<div class="timeline_desc">18:00 às 19:00</div>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</section>
