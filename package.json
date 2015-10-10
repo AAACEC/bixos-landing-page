@@ -1,9 +1,9 @@
 {
-  "private": true,
-  "devDependencies": {
-    "fs-extra": "^0.24.0",
-    "node-noop": "0.0.1",
-    "swig": "^1.4.2"
-  },
-  "dependencies": {}
+	"private": true,
+	"devDependencies": {
+		"fs-extra": "^0.24.0",
+		"node-noop": "0.0.1",
+		"swig": "^1.4.2"
+	},
+	"dependencies": {}
 }
