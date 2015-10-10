@@ -1,0 +1,6 @@
+{
+  "name": "Bixos Landing Page",
+  "dependencies": {
+    "vivus": "~0.2.3"
+  }
+}

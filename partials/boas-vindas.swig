@@ -1,5 +1,5 @@
 <section id="boas-vindas" class="content">
-	<div id="unicamp"></div>
+	<div id="animated-unicamp-svg"></div>
 
 	<h1>
 		Seja bem-vindo ao melhor curso de computação da América Latina!

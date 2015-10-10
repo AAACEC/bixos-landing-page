@@ -29,11 +29,11 @@ p {
 	content: " ";
 	display: table;
 }
- 
+
 .clearfix:after {
 	clear: both;
 }
- 
+
 .clearfix {
 	*zoom: 1;
 }
@@ -76,7 +76,7 @@ h2,
 h3,
 h4,
 h5 {
-	font-family: 'Raleway', sans-serif; 
+	font-family: 'Raleway', sans-serif;
 }
 
 h2,
@@ -114,15 +114,15 @@ h5 {
 	font-weight: bold;
 }
 
-p, 
-b, 
+p,
+b,
 .list li,
 .listFixed li {
 	font-size: 2em;
 	line-height: 1.3em;
 }
 
-.small, 
+.small,
 i {
 	font-size: 1.5em;
 }
@@ -212,7 +212,7 @@ section {
 }
 
 .wrapper {
-}	
+}
 
 .content{
 	display: flex;
@@ -250,7 +250,7 @@ section:nth-child(1) {
 	color: #f1c40f;
 }
 
-#unicamp {
+#animated-unicamp-svg {
 	position: absolute;
 	width: 70%;
 	top: 5%;
@@ -307,7 +307,7 @@ section:nth-child(2) {
 /* Section 3 */
 section:nth-child(3) {
 	background: #3F51B5;
-} 
+}
 
 #calendario h1,
 #calencario h3,
@@ -381,7 +381,7 @@ section:nth-child(3) {
 /* Section 4 */
 section:nth-child(4) {
 	background: #34495e;
-} 
+}
 
 #matricula h1,
 #matricula h3,
@@ -536,7 +536,7 @@ section:nth-child(5) {
 	background-color: transparent;
 	-webkit-appearance: none;
 	-moz-appearance: none;
-	appearance: none;	
+	appearance: none;
 }
 
 .route_controls .select_control select option {
@@ -708,7 +708,7 @@ section:nth-child(7) {
 	width: 50%;
 	box-sizing: border-box;
 	padding: 0 10px;
-} 
+}
 
 .drop {
 	border: 1px solid white;
@@ -731,7 +731,7 @@ section:nth-child(7) {
 	background: rgba(0, 0, 0, 0.2);
 }
 
-.tips .listFixed, 
+.tips .listFixed,
 .utilities .listFixed {
 	-webkit-margin-before: 0;
 	-webkit-margin-after: 0;
@@ -739,7 +739,7 @@ section:nth-child(7) {
 	padding-left: 4.5em;
 }
 
-.tips .listFixed:first-child, 
+.tips .listFixed:first-child,
 .utilities .listFixed:first-child {
 	padding-left: 3.5em;
 }
@@ -764,9 +764,9 @@ footer {
 	body {
 		font-size: 16px;
 	}
-	
-	p, 
-	b, 
+
+	p,
+	b,
 	.list li {
 		line-height: 1.5em;
 	}
@@ -793,9 +793,9 @@ footer {
 
 @media (max-width: 768px) {
 	body {
-		font-size: 8px;	
+		font-size: 8px;
 	}
-	
+
 	.stat {
 		width: calc(50% - 15px);
 		margin-bottom: 20px;
@@ -876,8 +876,8 @@ footer {
 	.content {
 		padding: 20px;
 	}
-	
-	#unicamp {
+
+	#animated-unicamp-svg {
 		width: 100%;
 		top: 25%;
 		left: 15%;
@@ -886,7 +886,7 @@ footer {
 	.stats {
 		display: block;
 	}
-	
+
 	.stat {
 		width: 100%;
 		margin: 0;
@@ -896,7 +896,7 @@ footer {
 	.stat:first-child {
 		margin-top: 0;
 	}
-	
+
 	.resize {
 		width: 67%;
 	}
