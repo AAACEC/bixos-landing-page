@@ -131,7 +131,7 @@ i {
 	margin-left: 0.5em;
 }
 
-.stat_number .number {
+.stat_number .odometer {
 	font-size: 5em;
 	font-family: 'Open sans';
 	font-weight: bold;
@@ -265,7 +265,7 @@ section:nth-child(2) {
 }
 
 #o-curso h1,
-#o-curso .number {
+#o-curso .odometer {
 	color: #2ecc71;
 }
 

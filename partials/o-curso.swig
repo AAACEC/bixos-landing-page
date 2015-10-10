@@ -5,7 +5,7 @@
 		<div class="stat" data-anchor-target="#o-curso" data-0="" data-200-top="" data--200-bottom="" data-emit-events>
 			<h5>Graduação</h5>
 			<div class="stat_number">
-				<span class="number" data-number="5">0</span>
+				<span class="odometer" data-odometer-value="5">0</span>
 			</div>
 			<div class="stat_detail">
 				<p><i class="fa fa-star"></i> Estrelas</p>
@@ -15,7 +15,7 @@
 		<div class="stat">
 			<h5>Pós-graduação</h5>
 			<div class="stat_number">
-				<span class="number" data-number="7">0</span>
+				<span class="odometer" data-odometer-value="7">0</span>
 			</div>
 			<div class="stat_detail">
 				<p><i class="fa fa-trophy"></i> Pontos</p>
@@ -25,7 +25,7 @@
 		<div class="stat">
 			<h5>IC</h5>
 			<div class="stat_number">
-				<span class="number" data-number="40">0</span>
+				<span class="odometer" data-odometer-value="40">0</span>
 			</div>
 			<div class="stat_detail">
 				<p><i class="fa fa-graduation-cap"></i> Doutores</p>
@@ -35,7 +35,7 @@
 		<div class="stat">
 			<h5>FEEC</h5>
 			<div class="stat_number">
-				<span class="number" data-number="45">0</span>
+				<span class="odometer" data-odometer-value="45">0</span>
 			</div>
 			<div class="stat_detail">
 				<p><i class="fa fa-clock-o"></i> Anos</p>

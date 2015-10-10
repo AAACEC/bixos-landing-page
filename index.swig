@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="assets/css/animate.css">
 		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="/assets/css/vendor/odometer-theme-minimal.css">
 		<title>Seja bem-vindo Bixo Computação UNICAMP 2015!</title>
 	</head>
 	<body>
@@ -34,20 +35,21 @@
 
 		<script src="assets/js/vendor/skrollr.min.js"></script>
 		<script src="assets/js/vendor/vivus.min.js"></script>
+		<script src="assets/js/vendor/odometer.min.js"></script>
 		<script src="assets/js/vendor/jquery.animate-number.min.js"></script>
 		<script>
 			$(function() {
+
+
+
 				var unique = 0;
 				var s = skrollr.init({
 					forceHeight: false,
 					keyframe: function(element, name, direction) {
 						/* In order to get element on jquery sintaxe, use $(element) */
 						if(name == 'data200Top' && direction == 'down' && unique == 0 || name == 'data-200Bottom' && direction == 'up' && unique == 0) {
-							$('.number').each(function() {
-								$(this).text(0);
-								$(this).animateNumber({
-									number: $(this).attr('data-number')
-								}, 1500);
+							$('.odometer').each(function() {
+								this.innerHTML = this.dataset.odometerValue;
 							});
 							unique = 1;
 						}
