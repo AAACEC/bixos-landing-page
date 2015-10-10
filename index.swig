@@ -93,6 +93,7 @@
 				new Vivus('animated-unicamp-svg', {
 					file: '/assets/svg/unicamp.svg',
 					type: 'oneByOne',
+					start: 'autostart',
 					duration: 300,
 				});
 			});
