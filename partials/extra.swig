@@ -133,7 +133,7 @@
 
 	<h3 style="margin-botton: 0">Calendário de Eventos</h3>
 	<ul id="timeEvent" class="timeline">
-		<li class="li-1 clearfix" data-anchor-target="#extra" data-45p-top="transform[outCubic]: translateY(100px); opacity: 0;" data-top="transform[outCubic]: translateY(0px); opacity: 1;">
+		<li class="li-1 clearfix" style="transform: translateY(100px); opacity: 0;">
 			<div class="timeline_date">Março</div>
 			<ul class="timeline_events">
 				<li>
@@ -159,7 +159,7 @@
 				</li>
 			</ul>
 		</li>
-		<li class="li-2 clearfix" data-anchor-target="#extra .timeline .li-1" data-90p-top="transform[outCubic]: translateY(100px); opacity: 0;" data--350-bottom="transform[outCubic]: translateY(0px); opacity: 1;">
+		<li class="li-2 clearfix" style="transform: translateY(100px); opacity: 0;">
 			<div class="timeline_date">Abril</div>
 			<ul class="timeline_events">
 				<li>
@@ -172,7 +172,7 @@
 
 			</ul>
 		</li>
-		<li class="li-3 clearfix" data-anchor-target="#extra .timeline .li-2" data-90p-top="transform[outCubic]: translateY(100px); opacity: 0;" data--350-bottom="transform[outCubic]: translateY(0px); opacity: 1;">
+		<li class="li-3 clearfix" style="transform: translateY(100px); opacity: 0;">
 			<div class="timeline_date">Maio</div>
 			<ul class="timeline_events">
 				<li>
@@ -184,7 +184,7 @@
 				</li>
 			</ul>
 		</li>
-		<li class="li-4 clearfix" data-anchor-target="#extra .timeline .li-3" data-90p-top="transform[outCubic]: translateY(100px); opacity: 0;" data--350-bottom="transform[outCubic]: translateY(0px); opacity: 1;">
+		<li class="li-4 clearfix" style="transform: translateY(100px); opacity: 0;">
 			<div class="timeline_date">Junho</div>
 			<ul class="timeline_events">
 				<li>
@@ -197,7 +197,7 @@
 				</li>
 			</ul>
 		</li>
-		<li class="li-5 clearfix" data-anchor-target="#extra .timeline .li-4" data-90p-top="transform[outCubic]: translateY(100px); opacity: 0;" data--350-bottom="transform[outCubic]: translateY(0px); opacity: 1;">
+		<li class="li-5 clearfix" style="transform: translateY(100px); opacity: 0;">
 			<div class="timeline_date">Agosto</div>
 			<ul class="timeline_events">
 				<li>
@@ -216,7 +216,7 @@
 				</li>
 			</ul>
 		</li>
-		<li class="li-6 clearfix" data-anchor-target="#extra .timeline .li-5" data-90p-top="transform[outCubic]: translateY(100px); opacity: 0;" data--350-bottom="transform[outCubic]: translateY(0px); opacity: 1;">
+		<li class="li-6 clearfix" style="transform: translateY(100px); opacity: 0;">
 			<div class="timeline_date set">Setembro</div>
 			<ul class="timeline_events">
 				<li>
@@ -236,7 +236,7 @@
 				</li>
 			</ul>
 		</li>
-		<li class="li-7 clearfix" data-anchor-target="#extra .timeline .li-6" data-90p-top="transform[outCubic]: translateY(100px); opacity: 0;" data--350-bottom="transform[outCubic]: translateY(0px); opacity: 1;">
+		<li class="li-7 clearfix" style="transform: translateY(100px); opacity: 0;">
 			<div class="timeline_date">Outubro</div>
 			<ul class="timeline_events">
 				<li>
@@ -263,7 +263,7 @@
 	<h3>Ensaios da Valorosa</h3>
 	<p>Assim como os treinos, qualquer aluno pode participar, mesmo que não saiba tocar nenhum instrumento! Se esse for o caso, não perca a chance!</p>
 	<ul class="timeline">
-		<li class="clearfix" style="margin-bottom: 20pt;">
+		<li class="clearfix" style="margin-bottom: 20pt; transform: translateY(100px); opacity: 0;">
 			<div class="timeline_date">Terças</div>
 			<ul class="timeline_events">
 				<li>
@@ -275,7 +275,7 @@
 				</li>
 			</ul>
 		</li>
-		<li class="clearfix">
+		<li class="clearfix" style="transform: translateY(100px); opacity: 0;">
 			<div class="timeline_date">Quintas</div>
 			<ul class="timeline_events">
 				<li>

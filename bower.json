@@ -2,6 +2,8 @@
 	"name": "Bixos Landing Page",
 	"dependencies": {
 		"vivus": "~0.2.3",
-		"odometer": "~0.4.7"
+		"odometer": "~0.4.7",
+		"scrollmagic": "~2.0.5",
+		"gsap": "~1.18.0"
 	}
 }

@@ -33,27 +33,64 @@
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4CQbkdcRIS3yndQKzA-9tcLgzj0E-RV0"></script>
 		<script src="assets/js/routes.js"></script>
 
-		<script src="assets/js/vendor/skrollr.min.js"></script>
 		<script src="assets/js/vendor/vivus.min.js"></script>
 		<script src="assets/js/vendor/odometer.min.js"></script>
 		<script src="assets/js/vendor/jquery.animate-number.min.js"></script>
+		<script src="assets/js/vendor/TweenMax.js"></script>
+		<script src="assets/js/vendor/scrollmagic.js"></script>
+		<script src="assets/js/vendor/scrollmagic.addIndicators.js"></script>
+		<script src="assets/js/vendor/scrollmagic.gsap.js"></script>
 		<script>
 			$(function() {
+				'use strict';
+				var controller = new ScrollMagic.Controller();
 
+				new ScrollMagic.Scene({
+					triggerElement: '.odometer',
+					triggerHook: 'onEnter'
+				})
+				.addTo(controller)
+				.addIndicators()
+				.on('start', () => {
+					[].slice.call(document.querySelectorAll('.odometer')).forEach(od => {
+						od.innerHTML = od.dataset.odometerValue;
+					});
+				});
 
+				[].slice.call(document.querySelectorAll('.timeline > li')).forEach(li => {
+					new ScrollMagic.Scene({
+						triggerElement: li,
+						triggerHook: .90,
+						offset: (Math.random() * -300),
+						duration: 200 + (Math.random() * 300)
+					})
+					.addTo(controller)
+					.addIndicators()
+					.setTween(li, { transform: 'translateY(0px)', opacity: 1, ease: Cubic.easeOut });
+				});
 
-				var unique = 0;
-				var s = skrollr.init({
-					forceHeight: false,
-					keyframe: function(element, name, direction) {
-						/* In order to get element on jquery sintaxe, use $(element) */
-						if(name == 'data200Top' && direction == 'down' && unique == 0 || name == 'data-200Bottom' && direction == 'up' && unique == 0) {
-							$('.odometer').each(function() {
-								this.innerHTML = this.dataset.odometerValue;
-							});
-							unique = 1;
-						}
-					}
+				[].slice.call(document.querySelectorAll('.infoList > li')).forEach(li => {
+					new ScrollMagic.Scene({
+						triggerElement: li,
+						triggerHook: .75,
+						offset: -100 + (Math.random() * -200),
+						duration: 200 + (Math.random() * 100)
+					})
+					.addTo(controller)
+					.addIndicators()
+					.setTween(li, { transform: 'translateX(0px)', opacity: 1, ease: Cubic.easeOut });
+				});
+
+				[].slice.call(document.querySelectorAll('.docsList > li')).forEach(li => {
+					new ScrollMagic.Scene({
+						triggerElement: li,
+						triggerHook: .75,
+						offset: -100 + (Math.random() * -200),
+						duration: 200 + (Math.random() * 100)
+					})
+					.addTo(controller)
+					.addIndicators()
+					.setTween(li, { transform: 'translateX(0px)', opacity: 1, ease: Cubic.easeOut });
 				});
 
 				/* Adding effect to entities */

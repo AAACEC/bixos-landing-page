@@ -3,7 +3,7 @@
 	<h4>A matrícula dos candidatos convocados para os cursos de graduação da Unicamp cabe à Diretoria Acadêmica, <a href="http://www.dac.unicamp.br">DAC</a>. Memorize o calendário de matrícula, pois todas são de extrema importância!</h4>
 	<h3>Calendário de Matrícula</h3>
 	<ul class="timeline">
-		<li class="li-1 clearfix" data-anchor-target="#calendario" data-45p-top="transform[outCubic]: translateY(100px); opacity: 0;" data-top="transform[outCubic]: translateY(0px); opacity: 1;">
+		<li class="li-1 clearfix" data-anchor-target="#calendario" style="transform: translateY(100px); opacity: 0;" data-top="transform: translateY(0px); opacity: 1;">
 			<div class="timeline_date">03/02</div>
 			<ul class="timeline_events">
 				<li>
@@ -15,7 +15,7 @@
 				</li>
 			</ul>
 		</li>
-		<li class="li-2 clearfix" data-anchor-target="#calendario .timeline .li-1" data-90p-top="transform[outCubic]: translateY(100px); opacity: 0;" data--350-bottom="transform[outCubic]: translateY(0px); opacity: 1;">
+		<li class="li-2 clearfix" data-anchor-target="#calendario .timeline .li-1" style="transform: translateY(100px); opacity: 0;" data--350-bottom="transform: translateY(0px); opacity: 1;">
 			<div class="timeline_date">04/02</div>
 			<ul class="timeline_events">
 				<li>
@@ -27,7 +27,7 @@
 				</li>
 			</ul>
 		</li>
-		<li class="li-3 clearfix" data-anchor-target="#calendario .timeline .li-2" data-90p-top="transform[outCubic]: translateY(100px); opacity: 0;" data--350-bottom="transform[outCubic]: translateY(0px); opacity: 1;">
+		<li class="li-3 clearfix" data-anchor-target="#calendario .timeline .li-2" style="transform: translateY(100px); opacity: 0;" data--350-bottom="transform: translateY(0px); opacity: 1;">
 			<div class="timeline_date">06/02</div>
 			<ul class="timeline_events">
 				<li>
@@ -39,7 +39,7 @@
 				</li>
 			</ul>
 		</li>
-		<li class="li-4 clearfix" data-anchor-target="#calendario .timeline .li-3" data-90p-top="transform[outCubic]: translateY(100px); opacity: 0;" data--350-bottom="transform[outCubic]: translateY(0px); opacity: 1;">
+		<li class="li-4 clearfix" data-anchor-target="#calendario .timeline .li-3" style="transform: translateY(100px); opacity: 0;" data--350-bottom="transform: translateY(0px); opacity: 1;">
 			<div class="timeline_date">11/02</div>
 			<ul class="timeline_events">
 				<li>
@@ -58,7 +58,7 @@
 				</li>
 			</ul>
 		</li>
-		<li class="li-5 clearfix" data-anchor-target="#calendario .timeline .li-4" data-90p-top="transform[outCubic]: translateY(100px); opacity: 0;" data--350-bottom="transform[outCubic]: translateY(0px); opacity: 1;">
+		<li class="li-5 clearfix" data-anchor-target="#calendario .timeline .li-4" style="transform: translateY(100px); opacity: 0;" data--350-bottom="transform: translateY(0px); opacity: 1;">
 			<div class="timeline_date">20/02</div>
 			<ul class="timeline_events">
 				<li>
@@ -70,7 +70,7 @@
 				</li>
 			</ul>
 		</li>
-		<li class="li-6 clearfix" data-anchor-target="#calendario .timeline .li-5" data-90p-top="transform[outCubic]: translateY(100px); opacity: 0;" data--350-bottom="transform[outCubic]: translateY(0px); opacity: 1;">
+		<li class="li-6 clearfix" data-anchor-target="#calendario .timeline .li-5" style="transform: translateY(100px); opacity: 0;" data--350-bottom="transform: translateY(0px); opacity: 1;">
 			<div class="timeline_date">24/02</div>
 			<ul class="timeline_events">
 				<li>
@@ -89,7 +89,7 @@
 				</li>
 			</ul>
 		</li>
-		<li class="li-7 clearfix" data-anchor-target="#calendario .timeline .li-6" data-90p-top="transform[outCubic]: translateY(100px); opacity: 0;" data--350-bottom="transform[outCubic]: translateY(0px); opacity: 1;">
+		<li class="li-7 clearfix" data-anchor-target="#calendario .timeline .li-6" style="transform: translateY(100px); opacity: 0;" data--350-bottom="transform: translateY(0px); opacity: 1;">
 			<div class="timeline_date">25/02</div>
 			<ul class="timeline_events">
 				<li>
