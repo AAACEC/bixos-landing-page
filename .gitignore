@@ -1,5 +1,8 @@
 # Created by https://www.gitignore.io
 
+### Distribution Folder ###
+dist
+
 ### SublimeText ###
 # cache files for sublime text
 *.tmlanguage.cache
