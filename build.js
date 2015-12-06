@@ -3,6 +3,8 @@ var fs   = require('fs-extra'),
 	noop = require('node-noop').noop;
 
 // TODO: Handle multiple build configs (release/debug)
+// TODO: Concatenate and minify scripts and stylesheets
+
 fs.writeFile('dist/index.html', swig.renderFile('index.swig'));
 
 fs.copy('assets/', 'dist/assets/', noop);
@@ -15,3 +17,4 @@ fs.copy('bower_components/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js', 
 fs.copy('bower_components/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js', 'dist/assets/js/vendor/scrollmagic.addIndicators.js', noop);
 fs.copy('bower_components/scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap.js', 'dist/assets/js/vendor/scrollmagic.gsap.js', noop);
 fs.copy('bower_components/gsap/src/uncompressed/TweenMax.js', 'dist/assets/js/vendor/TweenMax.js', noop);
+fs.copy('bower_components/gsap/src/uncompressed/TimelineLite.js', 'dist/assets/js/vendor/TimelineLite.js', noop);

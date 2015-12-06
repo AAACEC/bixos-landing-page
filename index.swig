@@ -37,6 +37,7 @@
 		<script src="assets/js/vendor/odometer.min.js"></script>
 		<script src="assets/js/vendor/jquery.animate-number.min.js"></script>
 		<script src="assets/js/vendor/TweenMax.js"></script>
+		<script src="assets/js/vendor/TimelineLite.js"></script>
 		<script src="assets/js/vendor/scrollmagic.js"></script>
 		<script src="assets/js/vendor/scrollmagic.addIndicators.js"></script>
 		<script src="assets/js/vendor/scrollmagic.gsap.js"></script>
@@ -57,6 +58,12 @@
 					});
 				});
 
+				function buildTimeline(el) {
+					return new TimelineLite()
+						.to(el, 1, { transform: 'translate(0, 0)', ease: Cubic.easeOut }, 0)
+						.to(el, 1, { opacity: 1, ease: Linear.easeNone }, 0);
+				}
+
 				[].slice.call(document.querySelectorAll('.timeline > li')).forEach(li => {
 					new ScrollMagic.Scene({
 						triggerElement: li,
@@ -66,7 +73,7 @@
 					})
 					.addTo(controller)
 					.addIndicators()
-					.setTween(li, { transform: 'translateY(0px)', opacity: 1, ease: Cubic.easeOut });
+					.setTween(buildTimeline(li));
 				});
 
 				[].slice.call(document.querySelectorAll('.infoList > li')).forEach(li => {
@@ -78,7 +85,7 @@
 					})
 					.addTo(controller)
 					.addIndicators()
-					.setTween(li, { transform: 'translateX(0px)', opacity: 1, ease: Cubic.easeOut });
+					.setTween(buildTimeline(li));
 				});
 
 				[].slice.call(document.querySelectorAll('.docsList > li')).forEach(li => {
@@ -90,7 +97,7 @@
 					})
 					.addTo(controller)
 					.addIndicators()
-					.setTween(li, { transform: 'translateX(0px)', opacity: 1, ease: Cubic.easeOut });
+					.setTween(buildTimeline(li));
 				});
 
 				/* Adding effect to entities */
