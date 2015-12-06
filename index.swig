@@ -100,40 +100,41 @@
 					.setTween(buildTimeline(li));
 				});
 
-				/* Adding effect to entities */
-				var cards = document.querySelectorAll(".entity");
-				for ( var i  = 0, len = cards.length; i < len; i++ ) {
-					var card = cards[i];
-					clickListener( card );
-				}
+				[].slice.call(document.querySelectorAll('.entity')).forEach(card => {
+					card.addEventListener('click', () => {
+						let flipCard = !card.classList.contains('flipped');
 
-				function clickListener(card) {
-					card.addEventListener( "click", function() {
-						var c = this.classList;
-						c.contains("flipped") === true ? c.remove("flipped") : c.add("flipped");
-						$(".entity").not($(this)).each(function() {
-							$(this).removeClass("flipped");
+						[].slice.call(document.querySelectorAll('.entity')).forEach(card2 => {
+							card2.classList.remove('flipped');
 						});
+
+						if (flipCard) {
+							card.classList.add('flipped');
+						}
 					});
-				}
+				});
 
 				/* Dropdown */
-				$('.drop').click(function () {
-					console.log("cliqueeee!");
-					if($(this).hasClass('active')) {
-						$(this).children('.drop_question').children('span').children('i').removeClass('fa-minus').addClass('fa-plus');
-						$(this).children('.drop_answer').slideUp();
-						$(this).removeClass('active');
-					} else {
-						$(this).children('.drop_question').children('span').children('i').removeClass('fa-plus').addClass('fa-minus');
-						$(this).parent().children('.drop').not($(this)).each(function() {
-							$(this).children('.drop_question').children('span').children('i').removeClass('fa-minus').addClass('fa-plus');
-							$(this).children('.drop_answer').slideUp();
-							$(this).removeClass('active');
+				[].slice.call(document.querySelectorAll('.drop')).forEach(question => {
+					question.addEventListener('click', () => {
+						let openQuestion = !question.classList.contains('active');
+
+						[].slice.call(document.querySelectorAll('.drop')).forEach(question2 => {
+							let icon = question2.querySelector('.drop_question .fa');
+
+							question2.classList.remove('active');
+							icon.classList.remove('fa-minus');
+							icon.classList.add('fa-plus');
 						});
-						$(this).children('.drop_answer').slideDown();
-						$(this).addClass('active');
-					}
+
+						if (openQuestion) {
+							let icon = question.querySelector('.drop_question .fa');
+
+							question.classList.add('active');
+							icon.classList.add('fa-minus');
+							icon.classList.remove('fa-plus');
+						}
+					});
 				});
 
 				new Vivus('animated-unicamp-svg', {
