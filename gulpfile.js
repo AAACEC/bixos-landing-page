@@ -4,6 +4,7 @@ let gulp = require('gulp'),
 	swig = require('gulp-swig'),
 	sass = require('gulp-sass'),
 	autoprefixer = require('gulp-autoprefixer'),
+	eslint = require('gulp-eslint'),
 	uglify = require('gulp-uglify'),
 	minifycss = require('gulp-minify-css'),
 	imagemin = require('gulp-imagemin'),
@@ -53,8 +54,16 @@ gulp.task('styles', function() {
 		.pipe(notify({ message: 'Styles task complete' }));
 });
 
+// Lint JS
+gulp.task('lint', function () {
+	return gulp.src(['js/**/*.js'])
+		.pipe(eslint())
+		.pipe(eslint.format())
+		.pipe(eslint.failAfterError());
+});
+
 // Concatenate & Minify JS
-gulp.task('scripts', function() {
+gulp.task('scripts', ['lint'], function() {
 	return gulp.src(vendor.scripts.concat(['js/*.js']))
 		.pipe(concat('bixos.js'))
 		.pipe(uglify())
@@ -85,7 +94,7 @@ gulp.task('images', function() {
 // Templates
 gulp.task('templates', function() {
 	return gulp.src('tpt/index.swig')
-		.pipe(swig())
+		.pipe(swig({defaults: {cache: false}}))
 		.pipe(rename('index.html'))
 		.pipe(gulp.dest('dist'))
 		.pipe(livereload())
