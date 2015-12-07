@@ -27,12 +27,11 @@
 		{% include 'help.swig' %}
 	</div>
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4CQbkdcRIS3yndQKzA-9tcLgzj0E-RV0"></script>
 
 		<script src="js/bixos.min.js"></script>
 		<script>
-			$(function() {
+			(function() {
 				'use strict';
 				var controller = new ScrollMagic.Controller();
 
@@ -133,7 +132,7 @@
 					start: 'autostart',
 					duration: 300,
 				});
-			});
+			})();
 		</script>
 
 		<script>
