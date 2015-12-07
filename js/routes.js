@@ -16,7 +16,7 @@
 			scrollwheel: false,
 
 			// Unicamp
-			center: new google.maps.LatLng(-22.8159666, -47.070069)
+			center: new google.maps.LatLng(-22.8159666, -47.070069),
 		};
 
 		map = new google.maps.Map($mapCanvas, mapOptions);
@@ -34,10 +34,8 @@
 		var request = {
 			origin: new google.maps.LatLng(parseFloat(origin[0], 10), parseFloat(origin[1], 10)),
 			destination: new google.maps.LatLng(parseFloat(dest[0], 10), parseFloat(dest[1], 10)),
-			travelMode: google.maps.TravelMode.WALKING
+			travelMode: google.maps.TravelMode.WALKING,
 		};
-
-		console.log(request);
 
 		directionsService.route(request, function (response, status) {
 			if (status == google.maps.DirectionsStatus.OK) {
