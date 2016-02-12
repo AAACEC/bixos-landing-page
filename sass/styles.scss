@@ -731,6 +731,10 @@ section:nth-child(7) {
 	background: rgba(0, 0, 0, 0.2);
 }
 
+.active .drop_answer {
+	display: block;
+}
+
 .tips .listFixed,
 .utilities .listFixed {
 	-webkit-margin-before: 0;
