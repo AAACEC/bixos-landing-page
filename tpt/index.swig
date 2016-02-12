@@ -40,7 +40,6 @@
 					triggerHook: 'onEnter'
 				})
 				.addTo(controller)
-				.addIndicators()
 				.on('start', () => {
 					[].slice.call(document.querySelectorAll('.odometer')).forEach(od => {
 						od.innerHTML = od.dataset.odometerValue;
