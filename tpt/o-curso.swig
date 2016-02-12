@@ -9,7 +9,7 @@
 			</div>
 			<div class="stat_detail">
 				<p><i class="fa fa-star"></i> Estrelas</p>
-				<i>Nota máxima pelo Guia do Estudante 2014</i>
+				<i>Nota máxima pelo Guia do Estudante 2015</i>
 			</div>
 		</div>
 		<div class="stat">
@@ -19,7 +19,7 @@
 			</div>
 			<div class="stat_detail">
 				<p><i class="fa fa-trophy"></i> Pontos</p>
-				<i>Nota máxima pelo CAPES, de 2010 a 2014</i>
+				<i>Nota máxima pelo CAPES, de 2010 a 2015</i>
 			</div>
 		</div>
 		<div class="stat">
@@ -35,11 +35,11 @@
 		<div class="stat">
 			<h5>FEEC</h5>
 			<div class="stat_number">
-				<span class="odometer" data-odometer-value="45">0</span>
+				<span class="odometer" data-odometer-value="46">0</span>
 			</div>
 			<div class="stat_detail">
 				<p><i class="fa fa-clock-o"></i> Anos</p>
-				<i>25 anos de parceria junto ao IC</i>
+				<i>26 anos de parceria junto ao IC</i>
 			</div>
 		</div>
 	</div>

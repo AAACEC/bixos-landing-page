@@ -4,19 +4,19 @@
 	<h3>Calendário de Matrícula</h3>
 	<ul class="timeline">
 		<li class="li-1 clearfix" data-anchor-target="#calendario" style="transform: translateY(100px); opacity: 0;" data-top="transform: translateY(0px); opacity: 1;">
-			<div class="timeline_date">03/02</div>
+			<div class="timeline_date">13/02</div>
 			<ul class="timeline_events">
 				<li>
 					<div class="timeline_title">
 						<div class="resize">Início da Matrícula Online</div>
 						<div class="badge">Acadêmico</div>
 					</div>
-					<div class="timeline_desc">Das 9:00 até às 23:59 do dia 04/02</div>
+					<div class="timeline_desc">Das 8:00 até às 18:00 do dia 14/02</div>
 				</li>
 			</ul>
 		</li>
 		<li class="li-2 clearfix" data-anchor-target="#calendario .timeline .li-1" style="transform: translateY(100px); opacity: 0;" data--350-bottom="transform: translateY(0px); opacity: 1;">
-			<div class="timeline_date">04/02</div>
+			<div class="timeline_date">14/02</div>
 			<ul class="timeline_events">
 				<li>
 					<div class="timeline_title">
@@ -28,7 +28,7 @@
 			</ul>
 		</li>
 		<li class="li-3 clearfix" data-anchor-target="#calendario .timeline .li-2" style="transform: translateY(100px); opacity: 0;" data--350-bottom="transform: translateY(0px); opacity: 1;">
-			<div class="timeline_date">06/02</div>
+			<div class="timeline_date">16/02</div>
 			<ul class="timeline_events">
 				<li>
 					<div class="timeline_title">
@@ -40,7 +40,7 @@
 			</ul>
 		</li>
 		<li class="li-4 clearfix" data-anchor-target="#calendario .timeline .li-3" style="transform: translateY(100px); opacity: 0;" data--350-bottom="transform: translateY(0px); opacity: 1;">
-			<div class="timeline_date">11/02</div>
+			<div class="timeline_date">18/02</div>
 			<ul class="timeline_events">
 				<li>
 					<div class="timeline_title">
@@ -59,7 +59,7 @@
 			</ul>
 		</li>
 		<li class="li-5 clearfix" data-anchor-target="#calendario .timeline .li-4" style="transform: translateY(100px); opacity: 0;" data--350-bottom="transform: translateY(0px); opacity: 1;">
-			<div class="timeline_date">20/02</div>
+			<div class="timeline_date">22/02</div>
 			<ul class="timeline_events">
 				<li>
 					<div class="timeline_title">
@@ -71,7 +71,7 @@
 			</ul>
 		</li>
 		<li class="li-6 clearfix" data-anchor-target="#calendario .timeline .li-5" style="transform: translateY(100px); opacity: 0;" data--350-bottom="transform: translateY(0px); opacity: 1;">
-			<div class="timeline_date">24/02</div>
+			<div class="timeline_date">26/02</div>
 			<ul class="timeline_events">
 				<li>
 					<div class="timeline_title clearfix">
@@ -82,7 +82,7 @@
 				</li>
 				<li>
 					<div class="timeline_title clearfix">
-						<div>Churras à Trois</div>
+						<div>Churras à Trois V</div>
 						<div class="badge party">Social</div>
 					</div>
 					<div class="timeline_desc">A primeira festa da Computação! (FONO + ENF + COMP)</div>
@@ -90,7 +90,7 @@
 			</ul>
 		</li>
 		<li class="li-7 clearfix" data-anchor-target="#calendario .timeline .li-6" style="transform: translateY(100px); opacity: 0;" data--350-bottom="transform: translateY(0px); opacity: 1;">
-			<div class="timeline_date">25/02</div>
+			<div class="timeline_date">29/02</div>
 			<ul class="timeline_events">
 				<li>
 					<div class="timeline_title">
