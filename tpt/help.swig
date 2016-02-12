@@ -131,13 +131,13 @@
 		<ol class="listFixed">
 			<li><a href="http://static.aaacec.com.br/bixos/pdf/manual.pdf" target="_blank">Manual do Bixo - AAACEC</a></li>
 			<li><a href="http://gde.ir" target="_blank">GDE</a></li>
-			<li><a href="http://www.dac.unicamp.br/portal/grad/calendarios/calgra2016/" target="_blank">Calendário de Graduação 2015</a></li>
+			<li><a href="http://www.dac.unicamp.br/portal/grad/calendarios/calgra2016/" target="_blank">Calendário de Graduação 2016</a></li>
 			<li><a href="http://sap.prefeitura.unicamp.br/sap/pesquisa_achados_perdidos.jsf" target="_blank">Achados e Perdidos</a></li>
 		</ol>
 	</div>
 	<h3>Grupo do Facebook</h3>
 	<p style="margin-top: 0;">Se você ainda não faz parte do grupo "Bixos Computação Unicamp 2016" peça a algum veterano para adicioná-lo!</p>
 	<footer>
-		Made with <a href="https://github.com/AAACEC/bixos-landing-page" target="_blank"><i class="fa fa-heart"></i></a> by <a href="https://github.com/rmobis" target="_blank">Phapha</a> &amp; <a href="https://github.com/dsfugimoto" target="_blank">Serginho</a> @ AAACEC 2015
+		Made with <a href="https://github.com/AAACEC/bixos-landing-page" target="_blank"><i class="fa fa-heart"></i></a> by <a href="https://github.com/rmobis" target="_blank">Phapha</a> &amp; <a href="https://github.com/dsfugimoto" target="_blank">Serginho</a> @ AAACEC 2016
 	</footer>
 </section>
