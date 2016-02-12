@@ -60,7 +60,6 @@
 						duration: 200 + (Math.random() * 300)
 					})
 					.addTo(controller)
-					.addIndicators()
 					.setTween(buildTimeline(li));
 				});
 
@@ -72,7 +71,6 @@
 						duration: 200 + (Math.random() * 100)
 					})
 					.addTo(controller)
-					.addIndicators()
 					.setTween(buildTimeline(li));
 				});
 
@@ -84,7 +82,6 @@
 						duration: 200 + (Math.random() * 100)
 					})
 					.addTo(controller)
-					.addIndicators()
 					.setTween(buildTimeline(li));
 				});
 
