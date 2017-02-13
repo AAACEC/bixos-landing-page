@@ -15,7 +15,7 @@
 						A Associação Atlética Acadêmica da Ciência e Engenharia da Computação é a entidade que promove
 						a prática de esportes na Computação, além de realizar festas e eventos de integração.
 					</p>
-					<p><i class="fa fa-link"></i> <a href="http://aaacec.com/" target="_blank">http://aaacec.com</a></p>
+					<p><i class="fa fa-link"></i> <a href="http://aaacec.com.br/" target="_blank">http://aaacec.com.br</a></p>
 				</span>
 			</div>
 		</div>
@@ -123,7 +123,7 @@
 	</div>
 
 	<h3>Treinos Esportivos</h3>
-	<p>Qualquer aluno devidamente matriculado pode participar dos treinos da AAACEC, basta pagar uma pequena mensalidade de <b>R$ 30,00</b> (Homens) ou <b>R$ 25,00</b> (Mulheres) para ter acesso a <b>TODOS OS ESPORTES COLETIVOS</b>!</p>
+	<p>Qualquer aluno devidamente matriculado pode participar dos treinos da AAACEC, basta pagar uma pequena mensalidade de <b>R$ 35,00</b> (Mensal) ou <b>R$ 110,00</b> (Semestral) para ter acesso a <b>TODOS OS ESPORTES COLETIVOS</b>!</p>
 	<p>E para vocês bixos o 1º mês é totalmente <b>FREE</b>! Veja as modalidades nas quais a AAACEC compete:</p>
 	<div class="training">
 		<ul class="list">
@@ -167,10 +167,10 @@
 				</li>
 				<li>
 					<div class="timeline_title">
-						<div class="resize">Choppada da Computação</div>
+						<div class="resize">Bixoppada</div>
 						<div class="badge party">Social</div>
 					</div>
-					<div class="timeline_desc">Choppada oficial do curso, geralmente realizado em conjunto com os cursos de Enfermagem</div>
+					<div class="timeline_desc">Choppada oficial do curso, geralmente realizado em conjunto com os cursos de Enfermagem e Fonoaudiologia</div>
 				</li>
 			</ul>
 		</li>
@@ -222,13 +222,6 @@
 					</div>
 					<div class="timeline_desc">Semana da computação que conta com palestras, workshops e muito mais</div>
 				</li>
-				<li>
-					<div class="timeline_title">
-						<div>Wonderland</div>
-						<div class="badge party">Social</div>
-					</div>
-					<div class="timeline_desc">Festa com temática glow, toca gêneros variados de música</div>
-				</li>
 			</ul>
 		</li>
 		<li class="li-6 clearfix" style="transform: translateY(100px); opacity: 0;">
@@ -256,14 +249,19 @@
 			<ul class="timeline_events">
 				<li>
 					<div class="timeline_title">
-						<div  class="resize">AAACEC Gaming Championship</div>
-						<div class="badge sports">Esportivo</div>
+						<div>Komptoberfest</div>
+						<div class="badge party">Social</div>
 					</div>
-					<div class="timeline_desc">Torneio de jogos eletrônicos entre os anos da computação, além do tradicional campeonato de Magic</div>
+					<div class="timeline_desc">A melhor festa no estilo da tradição alemã!</div>
 				</li>
+			</ul>
+		</li>
+		<li class="li-7 clearfix" style="transform: translateY(100px); opacity: 0;">
+			<div class="timeline_date">Novembro</div>
+			<ul class="timeline_events">
 				<li>
 					<div class="timeline_title">
-						<div>MC Lovin' Party 4</div>
+						<div>MC Lovin' Party 6</div>
 						<div class="badge party">Social</div>
 					</div>
 					<div class="timeline_desc">A maior festa em república da UNICAMP!</div>
