@@ -80,7 +80,7 @@
 		</div>
 		<div class="entity">
 			<div class="entity_front">
-				<img src="img/uesl.svg" width="45%">
+				<img src="img/uesl.svg"> 
 			</div>
 			<div class="entity_back">
 				<span class="entity_text">
