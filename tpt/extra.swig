@@ -94,7 +94,7 @@
 		</div>
 		<div class="entity">
 			<div class="entity_front">
-				<img src="img/gamux.svg" width="45%">
+				<img src="img/gamux.svg" width="37.5%">
 			</div>
 			<div class="entity_back">
 				<span class="entity_text">
