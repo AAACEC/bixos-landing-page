@@ -80,6 +80,20 @@
 		</div>
 		<div class="entity">
 			<div class="entity_front">
+				<img src="img/uesl.svg" width="45%">
+			</div>
+			<div class="entity_back">
+				<span class="entity_text">
+					<h3>UESL</h3>
+					<p>
+						Liga de Esportes Eletrônicos que teve origem dentro da AAACEC e hoje representa a UNICAMP inteira em campeonatos inter-universitários, contando com linu-ups de LoL, CS:GO, FIFA e HearhStone.
+					</p>
+					<p><i class="fa fa-link"></i> <a href="https://fb.com/UnicampElectronicSports" target="_blank">https://fb.com/UnicampElectronicSports</a></p>
+				</span>
+			</div>
+		</div>
+		<div class="entity">
+			<div class="entity_front">
 				<img src="img/phoenix.svg" width="45%">
 			</div>
 			<div class="entity_back">
@@ -94,7 +108,7 @@
 		</div>
 		<div class="entity">
 			<div class="entity_front">
-				<img src="img/gamux.svg" width="37.5%">
+				<img src="img/gamux.svg" width="45%">
 			</div>
 			<div class="entity_back">
 				<span class="entity_text">
