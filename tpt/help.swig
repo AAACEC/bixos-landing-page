@@ -122,14 +122,14 @@
 	<h3>Utilidades</h3>
 	<div class="utilities clearfix">
 		<ol class="listFixed">
-			<li><a href="http://bit.ly/manualdobixo" target="_blank">Manual do Bixo - CACo</a></li>
+			<li><a href="https://www.caco.ic.unicamp.br/manual.pdf" target="_blank">Manual do Bixo - CACo</a></li>
 			<li><a href="http://www.sae.unicamp.br/portal/" target="_blank">SAE - (Bolsas)</a></li>
 			<li><a href="http://www.ccuec.unicamp.br/ccuec/redesemfio_eduroam" target="_blank">Tutorial: Acessar o Wifi da UNICAMP</a></li>
 			<li><a href="http://www.caco.ic.unicamp.br/portal/bancodeprovas/" target="_blank">Banco de Provas - CACo</a></li>
 			<li><a href="http://www.sbu.unicamp.br/portal/" target="_blank">SBU</a></li>
 		</ol>
 		<ol class="listFixed">
-			<li><a href="http://static.aaacec.com.br/bixos/pdf/manual.pdf" target="_blank">Manual do Bixo - AAACEC</a></li>
+			<li><a href="http://static.aaacec.com.br/bixos/manual2017.pdf" target="_blank">Manual do Bixo - AAACEC</a></li>
 			<li><a href="http://gde.ir" target="_blank">GDE</a></li>
 			<li><a href="http://www.dac.unicamp.br/portal/grad/calendarios/calgra2017/" target="_blank">Calendário de Graduação 2017</a></li>
 			<li><a href="http://sap.prefeitura.unicamp.br/sap/pesquisa_achados_perdidos.jsf" target="_blank">Achados e Perdidos</a></li>
