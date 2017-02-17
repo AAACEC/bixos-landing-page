@@ -35,11 +35,11 @@
 		<div class="stat">
 			<h5>FEEC</h5>
 			<div class="stat_number">
-				<span class="odometer" data-odometer-value="46">0</span>
+				<span class="odometer" data-odometer-value="47">0</span>
 			</div>
 			<div class="stat_detail">
 				<p><i class="fa fa-clock-o"></i> Anos</p>
-				<i>26 anos de parceria junto ao IC</i>
+				<i>27 anos de parceria junto ao IC</i>
 			</div>
 		</div>
 	</div>
