@@ -116,7 +116,7 @@
 			<li>Precisando de atendimento de saúde? Vá até o <a href="http://www.cecom.unicamp.br/" target="_blank">CECOM</a>, é de graça!</li>
 			<li>Anote em algum lugar bem visível todas as datas de prova que você terá durante o semestre!</li>
 			<li>Geralmente as disciplinas possuem 3 provas, P1, P2 e P3. Estude bastante desde a P1 para não correr o risco de pegar exame!</li>
-			<li>Recorra aos seus veteranos quando precisar de materiais específicos para certas disciplinas, exemplo: Jaleco, óculos de proteção e luvas para a disciplina de química, QG100.</li>
+			<li>Recorra aos seus veteranos quando precisar de materiais específicos para certas disciplinas, exemplo: Jaleco, óculos de proteção e luvas para a disciplina de química, QG122.</li>
 		</ol>
 	</div>
 	<h3>Utilidades</h3>
