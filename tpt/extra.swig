@@ -74,7 +74,7 @@
 					<p>
 						Bateria universitária da Computação responsável por animar festas e empurrar a torcida em eventos esportivos (ou não) como o Intercomp, Interbatuc e UPA.
 					</p>
-					<p><i class="fa fa-link"></i> <a href="http://aaacec.com/bateria" target="_blank">http://aaacec.com/bateria</a></p>
+					<p><i class="fa fa-link"></i> <a href="http://fb.com/bateria.valorosa" target="_blank">https://www.facebook.com/bateria.valorosa/</a></p>
 				</span>
 			</div>
 		</div>
@@ -114,9 +114,9 @@
 				<span class="entity_text">
 					<h3>GER</h3>
 					<p>
-						Grupo de robótica autônoma com membros do curso de Computação e Engenharia de Controle e Automação. Participam anualmente de competições (CBR, Freescale Cup), além de realizar outros projetos.
+						Extracurricular com foco em robótica autônoma, participa de competições, promove cursos e projetos sociais. É formado por alunos da computação e engenharias.
 					</p>
-					<p><i class="fa fa-link"></i> <a href="https://www.facebook.com/unicampger" target="_blank">https://facebook.com/unicampger</a></p>
+					<p><i class="fa fa-link"></i> <a href="http://www.gerunicamp.com.br" target="_blank">http://www.gerunicamp.com.br</a></p>
 				</span>
 			</div>
 		</div>
@@ -165,13 +165,6 @@
 					</div>
 					<div class="timeline_desc">Evento disputado pelos bixos de todos os cursos da UNICAMP</div>
 				</li>
-				<li>
-					<div class="timeline_title">
-						<div class="resize">Bixoppada</div>
-						<div class="badge party">Social</div>
-					</div>
-					<div class="timeline_desc">Choppada oficial do curso, geralmente realizado em conjunto com os cursos de Enfermagem e Fonoaudiologia</div>
-				</li>
 			</ul>
 		</li>
 		<li class="li-2 clearfix" style="transform: translateY(100px); opacity: 0;">
@@ -184,7 +177,13 @@
 					</div>
 					<div class="timeline_desc">Uma prévia do maior torneio esportivo dentro do campus</div>
 				</li>
-
+				<li>
+					<div class="timeline_title">
+						<div class="resize">Bixoppada</div>
+						<div class="badge party">Social</div>
+					</div>
+					<div class="timeline_desc">Choppada oficial do curso, geralmente realizado em conjunto com os cursos de Enfermagem e Fonoaudiologia</div>
+				</li>
 			</ul>
 		</li>
 		<li class="li-3 clearfix" style="transform: translateY(100px); opacity: 0;">
@@ -236,11 +235,10 @@
 				</li>
 				<li>
 					<div class="timeline_title">
-						<div>INTERANOS</div>
-						<div class="badge sports">Esportivo</div>
+						<div>Na Mira: A Festa do Cupido</div>
 						<div class="badge party">Social</div>
 					</div>
-					<div class="timeline_desc">Evento esportivo entre os anos da computação. Sua chance de jogar contra seus veteranos</div>
+					<div class="timeline_desc">O Spotted 2.0 e a AAACEC trazem a pessoa amada em apenas uma festa!</div>
 				</li>
 			</ul>
 		</li>
@@ -265,6 +263,14 @@
 						<div class="badge party">Social</div>
 					</div>
 					<div class="timeline_desc">A maior festa em república da UNICAMP!</div>
+				</li>
+				<li>
+					<div class="timeline_title">
+						<div>INTERANOS</div>
+						<div class="badge sports">Esportivo</div>
+						<div class="badge party">Social</div>
+					</div>
+					<div class="timeline_desc">Evento esportivo entre os anos da computação. Sua chance de jogar contra seus veteranos</div>
 				</li>
 			</ul>
 		</li>
