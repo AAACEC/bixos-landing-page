@@ -80,7 +80,7 @@
 		</div>
 		<div class="entity">
 			<div class="entity_front">
-				<img src="img/tritons.svg">
+				<img src="img/tritons.png">
 			</div>
 			<div class="entity_back">
 				<span class="entity_text">
