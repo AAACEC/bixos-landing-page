@@ -80,15 +80,15 @@
 		</div>
 		<div class="entity">
 			<div class="entity_front">
-				<img src="img/uesl.svg">
+				<img src="img/tritons.svg">
 			</div>
 			<div class="entity_back">
 				<span class="entity_text">
-					<h3>UESL</h3>
+					<h3>Unicamp Tritons</h3>
 					<p>
-						Liga de Esportes Eletrônicos que teve origem dentro da AAACEC e hoje representa a UNICAMP inteira em campeonatos inter-universitários, contando com line-ups de LoL, CS:GO, FIFA e HearhStone.
+						Liga de Esportes Eletrônicos que teve origem dentro da AAACEC e hoje representa a UNICAMP inteira em campeonatos inter-universitários, contando com line-ups de LoL, CS:GO, FIFA, HearhStone, DotA 2 e Clash Rozale.
 					</p>
-					<p><i class="fa fa-link"></i> <a href="https://fb.com/UnicampElectronicSports" target="_blank">https://fb.com/UnicampElectronicSports</a></p>
+					<p><i class="fa fa-link"></i> <a href="https://fb.com/UnicampElectronicSports" target="_blank">https://fb.com/UnicampTrititons</a></p>
 				</span>
 			</div>
 		</div>
