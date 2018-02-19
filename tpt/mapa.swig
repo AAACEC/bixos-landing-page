@@ -3,7 +3,7 @@
 	<h4>O campus pode ser amedrontador à primeira vista, por isso anote as informações dos departamentos mais importantes, salve uma foto do mapa e verifique as rotas que irá usar!</h4>
 
 	<h3>Restaurantes Universitários</h3>
-	<p>Nos Restaurantes Universitários, comumente chamados de "Bandejão", o preço da refeição é de <b style="font-size: 1em;">R$ 2,00 para estudantes</b>. Você deve carregar sua <b style="font-size: 1em;">carteira estudantil</b> nos postos de recarga localizados do lado externo dos restaurantes para utilizá-los.</p>
+	<p>Nos Restaurantes Universitários, comumente chamados de "Bandejão", o preço da refeição é de <b style="font-size: 1em;">R$ 2,00 (café da manhã) e R$ 3,00 (almoço e janta) para estudantes</b>. Você deve carregar sua <b style="font-size: 1em;">carteirinha estudantil</b> nos postos de recarga localizados do lado externo dos restaurantes para utilizá-los.</p>
 	<p>Os restaurantes mais utilizados são: Restaurante Universitário (RU), Refeitório da Administração (RA) e Restaurante da Saturnino (RS). Vale lembrar que há um cardápio vegetariano, no entanto o mesmo só é servido no RS.
 	<a href="http://www.prefeitura.unicamp.br/servicos/divisao-de-alimentacao/cardapio-dos-restaurantes" target="_blank">Cardápio dos Restaurantes</a></p>
 
