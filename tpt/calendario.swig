@@ -1,46 +1,34 @@
 <section id="calendario" class="content">
 	<h1>Informações pré-matrícula</h1>
-	<h4>A matrícula dos candidatos convocados para os cursos de graduação da Unicamp cabe à Diretoria Acadêmica, <a href="http://www.dac.unicamp.br">DAC</a>. Memorize o calendário de matrícula, pois todas são de extrema importância!</h4>
+	<h4>A matrícula dos candidatos convocados para os cursos de graduação da Unicamp cabe à Diretoria Acadêmica, <a href="http://www.dac.unicamp.br" target="_blank">DAC</a>. Memorize o calendário de matrícula, pois todas são de extrema importância!</h4>
 	<h3>Calendário de Matrícula</h3>
 	<ul class="timeline">
 		<li class="li-1 clearfix" data-anchor-target="#calendario" style="transform: translateY(100px); opacity: 0;" data-top="transform: translateY(0px); opacity: 1;">
-			<div class="timeline_date">14/02</div>
+			<div class="timeline_date">09/02</div>
 			<ul class="timeline_events">
 				<li>
 					<div class="timeline_title">
 						<div class="resize">Início da Matrícula Online</div>
 						<div class="badge">Acadêmico</div>
 					</div>
-					<div class="timeline_desc">Das 8:00 até às 18:00 do dia 15/02</div>
-				</li>
-			</ul>
-		</li>
-		<li class="li-2 clearfix" data-anchor-target="#calendario .timeline .li-1" style="transform: translateY(100px); opacity: 0;" data--350-bottom="transform: translateY(0px); opacity: 1;">
-			<div class="timeline_date">15/02</div>
-			<ul class="timeline_events">
-				<li>
-					<div class="timeline_title">
-						<div class="resize">Fim da Matrícula Online</div>
-						<div class="badge">Acadêmico</div>
-					</div>
-					<div class="timeline_desc">Atenção: A vaga só estará garantida <span class="yellow">após a matrícula presencial!</span></div>
+					<div class="timeline_desc">Das 8:00 até às 18:00 na página eletrônica da Comvest.</div>
 				</li>
 			</ul>
 		</li>
 		<li class="li-3 clearfix" data-anchor-target="#calendario .timeline .li-2" style="transform: translateY(100px); opacity: 0;" data--350-bottom="transform: translateY(0px); opacity: 1;">
-			<div class="timeline_date">17/02</div>
+			<div class="timeline_date">15/02</div>
 			<ul class="timeline_events">
 				<li>
 					<div class="timeline_title">
 						<div class="resize">2ª Chamada dos Aprovados</div>
 						<div class="badge">Acadêmico</div>
 					</div>
-					<div class="timeline_desc">Às 12:00</div>
+					<div class="timeline_desc">Às 15:00</div>
 				</li>
 			</ul>
 		</li>
 		<li class="li-4 clearfix" data-anchor-target="#calendario .timeline .li-3" style="transform: translateY(100px); opacity: 0;" data--350-bottom="transform: translateY(0px); opacity: 1;">
-			<div class="timeline_date">21/02</div>
+			<div class="timeline_date">19/02</div>
 			<ul class="timeline_events">
 				<li>
 					<div class="timeline_title">
@@ -59,7 +47,7 @@
 			</ul>
 		</li>
 		<li class="li-5 clearfix" data-anchor-target="#calendario .timeline .li-4" style="transform: translateY(100px); opacity: 0;" data--350-bottom="transform: translateY(0px); opacity: 1;">
-			<div class="timeline_date">23/02</div>
+			<div class="timeline_date">21/02</div>
 			<ul class="timeline_events">
 				<li>
 					<div class="timeline_title">
@@ -71,14 +59,14 @@
 			</ul>
 		</li>
 		<li class="li-6 clearfix" data-anchor-target="#calendario .timeline .li-5" style="transform: translateY(100px); opacity: 0;" data--350-bottom="transform: translateY(0px); opacity: 1;">
-			<div class="timeline_date">02/03</div>
+			<div class="timeline_date">26/02</div>
 			<ul class="timeline_events">
 				<li>
 					<div class="timeline_title clearfix">
 						<div class="resize">Confirmação de Matrícula</div>
 						<div class="badge">Acadêmico</div>
 					</div>
-					<div class="timeline_desc">Das 9:00 às 16:00. A matrícula só estará garantida após sua confirmação, caso contrário, será automática e <span class="yellow">definitivamente cancelada!</span></div>
+					<div class="timeline_desc">Das 9:00 às 16:00 (EC ou CC) ou das 18:00 às 21:00 (CC). A matrícula só estará garantida após sua confirmação, caso contrário, será automática e <span class="yellow">definitivamente cancelada!</span></div>
 				</li>
 				<li>
 					<div class="timeline_title clearfix">
