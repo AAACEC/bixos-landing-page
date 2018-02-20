@@ -124,20 +124,19 @@
 		<ol class="listFixed">
 			<li><a href="https://www.caco.ic.unicamp.br/manual.pdf" target="_blank">Manual do Bixo - CACo</a></li>
 			<li><a href="http://www.sae.unicamp.br/portal/" target="_blank">SAE - (Bolsas)</a></li>
-			<li><a href="http://www.ccuec.unicamp.br/ccuec/redesemfio_eduroam" target="_blank">Tutorial: Acessar o Wifi da UNICAMP</a></li>
-			<li><a href="http://www.caco.ic.unicamp.br/portal/bancodeprovas/" target="_blank">Banco de Provas - CACo</a></li>
-			<li><a href="http://www.sbu.unicamp.br/portal/" target="_blank">SBU</a></li>
+			<li><a href="http://www.ccuec.unicamp.br/ccuec/euquero/conectar-me-uma-rede-wi-fi" target="_blank">Tutorial: Acessar o Wifi da UNICAMP</a></li>
+			<li><a href="https://www.caco.ic.unicamp.br/bancodeprovas" target="_blank">Banco de Provas - CACo</a></li>
+			<li><a href="http://www.sbu.unicamp.br/portal2/" target="_blank">SBU</a></li>
 		</ol>
 		<ol class="listFixed">
-			<li><a href="http://static.aaacec.com.br/bixos/manual2017.pdf" target="_blank">Manual do Bixo - AAACEC</a></li>
 			<li><a href="http://gde.ir" target="_blank">GDE</a></li>
-			<li><a href="http://www.dac.unicamp.br/portal/grad/calendarios/calgra2017/" target="_blank">Calendário de Graduação 2017</a></li>
+			<li><a href="https://www.dac.unicamp.br/portal/calendario" target="_blank">Calendário de Graduação 2018</a></li>
 			<li><a href="http://sap.prefeitura.unicamp.br/sap/pesquisa_achados_perdidos.jsf" target="_blank">Achados e Perdidos</a></li>
 		</ol>
 	</div>
 	<h3>Grupo do Facebook</h3>
-	<p style="margin-top: 0;">Se você ainda não faz parte do grupo "Bix*s Computação Unicamp 2017" peça a algum veterano para adicioná-lo!</p>
+	<p style="margin-top: 0;">Se você ainda não faz parte do grupo "Bix*s Computação Unicamp 2018" peça a algum veterano para adicioná-lo!</p>
 	<footer>
-		Made with <a href="https://github.com/AAACEC/bixos-landing-page" target="_blank"><i class="fa fa-heart"></i></a> by <a href="https://github.com/rmobis" target="_blank">Phapha</a> &amp; <a href="https://github.com/dsfugimoto" target="_blank">Serginho</a> @ AAACEC 2017
+		Made with <a href="https://github.com/AAACEC/bixos-landing-page" target="_blank"><i class="fa fa-heart"></i></a> by <a href="https://github.com/rmobis" target="_blank">Phapha</a> &amp; <a href="https://github.com/dsfugimoto" target="_blank">Serginho</a> @ AAACEC 2018
 	</footer>
 </section>

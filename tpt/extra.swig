@@ -137,7 +137,7 @@
 	</div>
 
 	<h3>Treinos Esportivos</h3>
-	<p>Qualquer aluno devidamente matriculado pode participar dos treinos da AAACEC, basta pagar uma pequena mensalidade de <b>R$ 35,00</b> (Mensal) ou <b>R$ 110,00</b> (Semestral) para ter acesso a <b>TODOS OS ESPORTES COLETIVOS</b>!</p>
+	<p>Qualquer aluno devidamente matriculado pode participar dos treinos da AAACEC, basta pagar uma pequena mensalidade de <b>R$ 40,00</b> (Mensal) ou <b>R$ 130,00</b> (Semestral) para ter acesso a <b>TODOS OS ESPORTES COLETIVOS</b>!</p>
 	<p>E para vocês bixos o 1º mês é totalmente <b>FREE</b>! Veja as modalidades nas quais a AAACEC compete:</p>
 	<div class="training">
 		<ul class="list">
@@ -179,6 +179,13 @@
 					</div>
 					<div class="timeline_desc">Evento disputado pelos bixos de todos os cursos da UNICAMP</div>
 				</li>
+				<li>
+					<div class="timeline_title">
+						<div class="resize">Bixoppada</div>
+						<div class="badge party">Social</div>
+					</div>
+					<div class="timeline_desc">Choppada oficial do curso, geralmente realizado em conjunto com os cursos de Enfermagem e Fonoaudiologia</div>
+				</li>
 			</ul>
 		</li>
 		<li class="li-2 clearfix" style="transform: translateY(100px); opacity: 0;">
@@ -190,13 +197,6 @@
 						<div class="badge sports">Esportivo</div>
 					</div>
 					<div class="timeline_desc">Uma prévia do maior torneio esportivo dentro do campus</div>
-				</li>
-				<li>
-					<div class="timeline_title">
-						<div class="resize">Bixoppada</div>
-						<div class="badge party">Social</div>
-					</div>
-					<div class="timeline_desc">Choppada oficial do curso, geralmente realizado em conjunto com os cursos de Enfermagem e Fonoaudiologia</div>
 				</li>
 			</ul>
 		</li>
@@ -257,18 +257,6 @@
 			</ul>
 		</li>
 		<li class="li-7 clearfix" style="transform: translateY(100px); opacity: 0;">
-			<div class="timeline_date">Outubro</div>
-			<ul class="timeline_events">
-				<li>
-					<div class="timeline_title">
-						<div>Komptoberfest</div>
-						<div class="badge party">Social</div>
-					</div>
-					<div class="timeline_desc">A melhor festa no estilo da tradição alemã!</div>
-				</li>
-			</ul>
-		</li>
-		<li class="li-7 clearfix" style="transform: translateY(100px); opacity: 0;">
 			<div class="timeline_date">Novembro</div>
 			<ul class="timeline_events">
 				<li>
@@ -291,7 +279,7 @@
 	</ul>
 
 	<h3>Cursos diversos</h3>
-	<p>Fiquem ligados, pois existem diversos cursos sendo oferecidos dentro da UNICAMP, seja do seu curso ou não! Dentre eles destacam-se as <a style="color:#FF6D00;" href="http://fefnet172.fef.unicamp.br/forms/re-codesp/tabelao3.asp?periodo_fk=63" target="_blank">atividades da FEF</a>,  <a style="color:#FF6D00;" href="http://www.cabs.fee.unicamp.br/?t=6_Curso-de-Linguas" target="_blank">aulas de idiomas do CABS/CEL</a> e até <a style="color:#FF6D00;" href="http://ogrupodedanca.com.br/" target="_blank">aulas de dança!</a></p>
+	<p>Fiquem ligados, pois existem diversos cursos sendo oferecidos dentro da UNICAMP, seja do seu curso ou não! Dentre eles destacam-se as <a style="color:#FF6D00;" href="https://www.fef.unicamp.br/fef/extensao/atividadesfisicas" target="_blank">atividades da FEF</a>,  <a style="color:#FF6D00;" href="http://www.cabs.fee.unicamp.br/?t=6_Curso-de-Linguas" target="_blank">aulas de idiomas do CABS/CEL</a> e até <a style="color:#FF6D00;" href="http://ogrupodedanca.com.br/" target="_blank">aulas de dança!</a></p>
 
 	<h3>Ensaios da Valorosa</h3>
 	<p>Assim como os treinos, qualquer aluno pode participar, mesmo que não saiba tocar nenhum instrumento! Se esse for o caso, não perca a chance!</p>

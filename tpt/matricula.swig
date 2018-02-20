@@ -12,7 +12,7 @@
 				<li class="li-4" style="transform: translateX(-100px); opacity: 0;">O menor de 18 anos deve apresentar os documentos <b>Título de Eleitor</b> e <b>Certificado de Reservista</b> tão logo esteja de posse dos mesmos.</li>
 				<li class="li-5" style="transform: translateX(-100px); opacity: 0;">A matrícula poderá ser feita por procuração, nos seguintes termos: por instrumento particular, se o candidato for maior de 18 anos; por instrumento público e com assistência de um dos pais ou responsável legal, se o candidato for menor de 18 anos.</li>
 				<li class="li-6" style="transform: translateX(-100px); opacity: 0;">O candidato que tenha concluído estudos equivalentes ao ensino médio no exterior deve apresentar parecer de equivalência de estudos da Secretaria da Educação.</li>
-				<li class="li-7" style="transform: translateX(-100px); opacity: 0;">Para mais informações, acesse o site da <a href="http://www.comvest.unicamp.br/vest2017/manual/instrucoes.html">COMVEST</a></li>
+				<li class="li-7" style="transform: translateX(-100px); opacity: 0;">Para mais informações, acesse o site da <a href="http://www.comvest.unicamp.br/vestibular-2018/" target="_blank">COMVEST</a></li>
 			</ol>
 		</div>
 		<div class="docs">
@@ -31,6 +31,6 @@
 	<div class="kit">
 		<h3>Kit Bixo</h3>
 		<p>Quer chegar abalando no curso? Então separe um dinheiro extra para adquirir o seu Kit Bixo!</p>
-		<p>Você vai levar para casa uma <b style="font-size: 1em;">infinidade de produtos</b> como: Camiseta Exclusiva, Caneca 500mL, Tirante, Mochila, Bloquinho de Post-it, Squeeze, Estojo completo (estojo, caneta, lápis e régua), Chaveiro, Vale-temaki e ingresso pra primeira festa da Computação: o Churras à Trois!</p>
+		<p>Você vai levar para casa uma <b style="font-size: 1em;">infinidade de produtos</b> como: Camiseta Exclusiva, Caneca 500mL, Mochila, Estojo completo (estojo, caneta, lápis e régua) e ingresso pra primeira festa da Computação: o Churras à Trois!</p>
 	</div>
 </section>
