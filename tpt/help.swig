@@ -129,7 +129,6 @@
 			<li><a href="http://www.sbu.unicamp.br/portal2/" target="_blank">SBU</a></li>
 		</ol>
 		<ol class="listFixed">
-			<li><a href="http://static.aaacec.com.br/bixos/manual2017.pdf" target="_blank">Manual do Bixo - AAACEC</a></li>
 			<li><a href="http://gde.ir" target="_blank">GDE</a></li>
 			<li><a href="https://www.dac.unicamp.br/portal/calendario" target="_blank">Calendário de Graduação 2018</a></li>
 			<li><a href="http://sap.prefeitura.unicamp.br/sap/pesquisa_achados_perdidos.jsf" target="_blank">Achados e Perdidos</a></li>
