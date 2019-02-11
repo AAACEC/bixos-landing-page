@@ -4,7 +4,7 @@
 	<h3>Calendário de Matrícula</h3>
 	<ul class="timeline">
 		<li class="li-1 clearfix" data-anchor-target="#calendario" style="transform: translateY(100px); opacity: 0;" data-top="transform: translateY(0px); opacity: 1;">
-			<div class="timeline_date">14/02</div>
+			<div class="timeline_date">12/02</div>
 			<ul class="timeline_events">
 				<li>
 					<div class="timeline_title">
